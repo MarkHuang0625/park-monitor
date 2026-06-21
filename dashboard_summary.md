@@ -1,12 +1,12 @@
 # Theme Park Performance Monitor
 
-**Updated:** 2026-06-21T12:46:50+00:00
+**Updated:** 2026-06-21T13:36:14+00:00
 
 ## Chain summary
 
 | Chain | Parks | Avg wait (live) | Reddit posts (14d) | Top KPI signals |
 | --- | ---: | ---: | ---: | --- |
-| Six Flags | 11 | 0.0 min | 124 | Pricing / passes (21), Long waits (14), Ride closure / downtime (12) |
+| Six Flags | 11 | 0.0 min | 100 | Pricing / passes (19), Long waits (11), Ride closure / downtime (8) |
 | Cedar Fair | 10 | 19.9 min | 123 | Crowding (15), Pricing / passes (13), Food & service (13) |
 
 ## Parks
@@ -140,7 +140,6 @@
 - Live avg wait: **0 min** (0 rides open)
 - Thrill Data weekly Δ: **-4.5%** (avg 15 min on thrill-data.com)
 - Local y/y trend: **collecting history**
-- Reddit KPI flags: Ride closure / downtime ×4, Crowding ×3, Long waits ×3, Pricing / passes ×2, Food & service ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/34/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Six Flags St. Louis (Six Flags)
