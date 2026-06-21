@@ -374,7 +374,21 @@ def fetch_park_waits(park: dict) -> dict:
     open_rides = [x for x in rides if x.get("is_open")]
     waits = [x["wait_time"] for x in open_rides if x["wait_time"] > 0]
     closed = [x["name"] for x in rides if not x.get("is_open")]
-    top_waits = sorted(open_rides, key=lambda x: x["wait_time"], reverse=True)[:8]    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)                last_updates.append(ts)            except Exception:                pass    data_age_minutes = int((now_utc - max(last_updates)).total_seconds() / 60) if last_updates else None    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)                last_updates.append(ts)            except Exception:    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:    now_utc = datetime.now(timezone.utc)
+    top_waits = sorted(open_rides, key=lambda x: x["wait_time"], reverse=True)[:8]
+    now_utc = datetime.now(timezone.utc)
+    last_updates = []
+    for r in rides:
+        lu = r.get("last_updated")
+        if lu:
+            try:
+                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))
+                if ts.tzinfo is None:
+                    ts = ts.replace(tzinfo=timezone.utc)
+                last_updates.append(ts)
+            except Exception:
+                pass
+    data_age_minutes = int((now_utc - max(last_updates)).total_seconds() / 60) if last_updates else None
+    park_is_open = len(open_rides) > 0 and (data_age_minutes is None or data_age_minutes < 180)
 
     snapshot = {
         "park_id": park["id"],
