@@ -1,13 +1,13 @@
 # Theme Park Performance Monitor
 
-**Updated:** 2026-06-21T13:36:14+00:00
+**Updated:** 2026-06-21T14:48:05+00:00
 
 ## Chain summary
 
 | Chain | Parks | Avg wait (live) | Reddit posts (14d) | Top KPI signals |
 | --- | ---: | ---: | ---: | --- |
-| Six Flags | 11 | 0.0 min | 100 | Pricing / passes (19), Long waits (11), Ride closure / downtime (8) |
-| Cedar Fair | 10 | 19.9 min | 123 | Crowding (15), Pricing / passes (13), Food & service (13) |
+| Six Flags | 11 | 0.0 min | 124 | Pricing / passes (21), Long waits (14), Ride closure / downtime (12) |
+| Cedar Fair | 10 | 17.4 min | 123 | Crowding (15), Pricing / passes (13), Food & service (13) |
 
 ## Parks
 
@@ -18,28 +18,28 @@
 - Sources: [Queue-Times](https://queue-times.com/parks/57/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Canada's Wonderland (Cedar Fair)
-- Live avg wait: **30.0 min** (29 rides open)
+- Live avg wait: **23.8 min** (53 rides open)
 - Thrill Data weekly Δ: **+8.0%** (avg 14 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Pricing / passes ×6, Crowding ×6, Food & service ×3, Long waits ×2, Ride closure / downtime ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/58/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Carowinds (Cedar Fair)
-- Live avg wait: **12.8 min** (39 rides open)
+- Live avg wait: **6.3 min** (40 rides open)
 - Thrill Data weekly Δ: **+0.0%** (avg 5 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Pricing / passes ×2, Ride closure / downtime ×1, Crowding ×1, Long waits ×1, Staffing / ops ×1, Food & service ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/59/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Cedar Point (Cedar Fair)
-- Live avg wait: **37.9 min** (55 rides open)
+- Live avg wait: **47.5 min** (49 rides open)
 - Thrill Data weekly Δ: **+16.7%** (avg 16 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Ride closure / downtime ×4, Food & service ×3, Long waits ×3, Pricing / passes ×1, Crowding ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/50/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Dorney Park (Cedar Fair)
-- Live avg wait: **15.0 min** (38 rides open)
+- Live avg wait: **0 min** (35 rides open)
 - Thrill Data weekly Δ: **-15.8%** (avg 6 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Sources: [Queue-Times](https://queue-times.com/parks/69/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
@@ -52,7 +52,7 @@
 - Sources: [Queue-Times](https://queue-times.com/parks/62/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Kings Island (Cedar Fair)
-- Live avg wait: **21.5 min** (39 rides open)
+- Live avg wait: **14.1 min** (49 rides open)
 - Thrill Data weekly Δ: **n/a** (avg 13 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Long waits ×4, Crowding ×3, Food & service ×2, Ride closure / downtime ×1, Cleanliness ×1, Pricing / passes ×1
@@ -104,7 +104,7 @@
 - Sources: [Queue-Times](https://queue-times.com/parks/39/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Six Flags Great Adventure (Six Flags)
-- Live avg wait: **0 min** (0 rides open)
+- Live avg wait: **0 min** (33 rides open)
 - Thrill Data weekly Δ: **-36.7%** (avg 8 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Crowding ×1, Pricing / passes ×1
@@ -125,7 +125,7 @@
 - Sources: [Queue-Times](https://queue-times.com/parks/32/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Six Flags New England (Six Flags)
-- Live avg wait: **0 min** (0 rides open)
+- Live avg wait: **0 min** (36 rides open)
 - Thrill Data weekly Δ: **+0.0%** (avg 6 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Sources: [Queue-Times](https://queue-times.com/parks/43/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
@@ -140,6 +140,7 @@
 - Live avg wait: **0 min** (0 rides open)
 - Thrill Data weekly Δ: **-4.5%** (avg 15 min on thrill-data.com)
 - Local y/y trend: **collecting history**
+- Reddit KPI flags: Ride closure / downtime ×4, Crowding ×3, Long waits ×3, Pricing / passes ×2, Food & service ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/34/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Six Flags St. Louis (Six Flags)
