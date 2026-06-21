@@ -374,7 +374,7 @@ def fetch_park_waits(park: dict) -> dict:
     open_rides = [x for x in rides if x.get("is_open")]
     waits = [x["wait_time"] for x in open_rides if x["wait_time"] > 0]
     closed = [x["name"] for x in rides if not x.get("is_open")]
-    top_waits = sorted(open_rides, key=lambda x: x["wait_time"], reverse=True)[:8]
+    top_waits = sorted(open_rides, key=lambda x: x["wait_time"], reverse=True)[:8]    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)                last_updates.append(ts)            except Exception:                pass    data_age_minutes = int((now_utc - max(last_updates)).total_seconds() / 60) if last_updates else None    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)                last_updates.append(ts)            except Exception:    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))                if ts.tzinfo is None:                    ts = ts.replace(tzinfo=timezone.utc)    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:            try:                ts = datetime.fromisoformat(str(lu).replace("Z", "+00:00"))    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:        lu = r.get("last_updated")        if lu:    now_utc = datetime.now(timezone.utc)    last_updates = []    for r in rides:    now_utc = datetime.now(timezone.utc)
 
     snapshot = {
         "park_id": park["id"],
@@ -390,7 +390,7 @@ def fetch_park_waits(park: dict) -> dict:
         "top_waits": top_waits,
         "closed_rides": closed[:15],
         "source_url": url,
-        "attribution": QUEUE_TIMES_ATTR,
+        "attribution": QUEUE_TIMES_ATTR,        "park_is_open": park_is_open,        "data_age_minutes": data_age_minutes,        "park_is_open": park_is_open,
     }
     return snapshot
 
@@ -942,8 +942,8 @@ function renderTable() {{
     const tr = document.createElement('tr');
     tr.style.cursor = 'pointer';
     tr.onclick = () => {{ document.getElementById('parkSelect').value = p.id; showPark(p.id); }};
-    tr.innerHTML = `<td>${{p.name}}</td><td>${{p.chain}}</td>
-      <td>${{w.avg_wait_min ?? '—'}} min</td><td>${{w.open_count ?? 0}}</td><td>${{w.closed_count ?? 0}}</td>
+    const parkOpen = w.park_is_open;    const waitCell = parkOpen ? `${{w.avg_wait_min ?? '—'}} min` : `<span class="pill" style="background:#555;color:#ccc">Closed</span>`;
+      <td>${{waitCell}}</td><td>${{openCell}}</td><td>${{closedCell}}</td>
       <td>${{pctPill(td.wow_pct, true)}}</td>
       <td>${{pctPill(wl.wow_pct, true)}}</td>
       <td>${{yoy.available ? pctPill(yoy.yoy_pct, true) : '<span class="pill">building</span>'}}</td>
