@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+vendor/
+park_monitor_dashboard.zip
+open_dashboard.ps1

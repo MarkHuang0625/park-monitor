@@ -1,0 +1,257 @@
+{
+  "reddit_subreddits": [
+    "sixflags",
+    "SixFlagsMagicMountain",
+    "sixflagsgreatamerica",
+    "sixflagsgreatadventure",
+    "sixflagsovertexas",
+    "sixflagsfiestatexas",
+    "cedarpoint",
+    "kingsisland",
+    "carowinds",
+    "CanadasWonderland",
+    "KnottsBerryFarm"
+  ],
+  "reddit_search_terms": [
+    "wait time",
+    "ride closed",
+    "flash pass",
+    "crowded",
+    "maintenance"
+  ],
+  "reddit_lookback_days": 30,
+  "reddit_post_limit_per_sub": 25,
+  "kpi_patterns": {
+    "long_waits": {
+      "label": "Long waits",
+      "icon": "⏱",
+      "keywords": ["wait time", "hour wait", "90 min", "long line", "queue", "line was", "waited ", " hours", " minute wait", "standby"]
+    },
+    "ride_closure": {
+      "label": "Ride closure / downtime",
+      "icon": "🚫",
+      "keywords": ["closed", "shut down", "down all day", "102", "breakdown", "stuck", "evac", "maintenance", "not operating", "walked off"]
+    },
+    "crowding": {
+      "label": "Crowding",
+      "icon": "👥",
+      "keywords": ["crowded", "packed", "busy", "capacity", "sold out", "parking lot full", "mob"]
+    },
+    "staffing_ops": {
+      "label": "Staffing / ops",
+      "icon": "👷",
+      "keywords": ["understaffed", "single train", "one train", "slow ops", "dispatch", "operator", "short staffed"]
+    },
+    "cleanliness": {
+      "label": "Cleanliness",
+      "icon": "🧹",
+      "keywords": ["dirty", "trash", "bathroom", "restroom", "filthy", "smell", "clean"]
+    },
+    "pricing_pass": {
+      "label": "Pricing / passes",
+      "icon": "💳",
+      "keywords": ["expensive", "price", "membership", "season pass", "flash pass", "premium", "parking fee", "add-on"]
+    },
+    "food_service": {
+      "label": "Food & service",
+      "icon": "🍔",
+      "keywords": ["food", "restaurant", "line for food", "mobile order", "dining pass", "service"]
+    },
+    "positive_experience": {
+      "label": "Positive signals",
+      "icon": "✅",
+      "keywords": ["walk-on", "no wait", "empty park", "great day", "short waits", "well run", "impressed", "best visit"]
+    }
+  },
+  "parks": [
+    {
+      "id": "sfga",
+      "name": "Six Flags Great America",
+      "chain": "Six Flags",
+      "queue_times_id": 38,
+      "thrill_data_name": "Great America (Six Flags)",
+      "aliases": ["great america", "sfga", "gurnee"],
+      "subreddits": ["sixflagsgreatamerica", "sixflags"]
+    },
+    {
+      "id": "sfmm",
+      "name": "Six Flags Magic Mountain",
+      "chain": "Six Flags",
+      "queue_times_id": 32,
+      "thrill_data_name": "Magic Mountain (Six Flags)",
+      "aliases": ["magic mountain", "sfmm", "valencia"],
+      "subreddits": ["SixFlagsMagicMountain", "sixflags"]
+    },
+    {
+      "id": "sfgadv",
+      "name": "Six Flags Great Adventure",
+      "chain": "Six Flags",
+      "queue_times_id": 37,
+      "thrill_data_name": "Great Adventure (Six Flags)",
+      "aliases": ["great adventure", "sfgadv", "jackson nj"],
+      "subreddits": ["sixflagsgreatadventure", "sixflags"]
+    },
+    {
+      "id": "sfot",
+      "name": "Six Flags Over Texas",
+      "chain": "Six Flags",
+      "queue_times_id": 34,
+      "thrill_data_name": "Over Texas (Six Flags)",
+      "aliases": ["over texas", "sfot", "arlington"],
+      "subreddits": ["sixflagsovertexas", "sixflags"]
+    },
+    {
+      "id": "sfft",
+      "name": "Six Flags Fiesta Texas",
+      "chain": "Six Flags",
+      "queue_times_id": 39,
+      "thrill_data_name": "Fiesta Texas (Six Flags)",
+      "aliases": ["fiesta texas", "sfft", "san antonio six flags"],
+      "subreddits": ["sixflagsfiestatexas", "sixflags"]
+    },
+    {
+      "id": "sfog",
+      "name": "Six Flags Over Georgia",
+      "chain": "Six Flags",
+      "queue_times_id": 35,
+      "thrill_data_name": "Over Georgia (Six Flags)",
+      "aliases": ["over georgia", "sfog", "austell"],
+      "subreddits": ["sixflags", "sixflagsovergeorgia"]
+    },
+    {
+      "id": "sfne",
+      "name": "Six Flags New England",
+      "chain": "Six Flags",
+      "queue_times_id": 43,
+      "thrill_data_name": "New England (Six Flags)",
+      "aliases": ["new england", "sfne", "agawam"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "sfdk",
+      "name": "Six Flags Discovery Kingdom",
+      "chain": "Six Flags",
+      "queue_times_id": 33,
+      "thrill_data_name": "Discovery Kingdom (Six Flags)",
+      "aliases": ["discovery kingdom", "sfdk", "vallejo"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "sfa",
+      "name": "Six Flags America",
+      "chain": "Six Flags",
+      "queue_times_id": 42,
+      "thrill_data_name": "America (Six Flags)",
+      "aliases": ["six flags america", "sfa", "bowie", "largo"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "sfstl",
+      "name": "Six Flags St. Louis",
+      "chain": "Six Flags",
+      "queue_times_id": 36,
+      "thrill_data_name": "Saint Louis (Six Flags)",
+      "aliases": ["st. louis", "saint louis", "sfstl", "eureka mo"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "sflr",
+      "name": "La Ronde",
+      "chain": "Six Flags",
+      "queue_times_id": 48,
+      "thrill_data_name": "La Ronde (Six Flags)",
+      "aliases": ["la ronde", "montreal"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "cp",
+      "name": "Cedar Point",
+      "chain": "Cedar Fair",
+      "queue_times_id": 50,
+      "thrill_data_name": "Cedar Point",
+      "aliases": ["cedar point", "sandusky"],
+      "subreddits": ["cedarpoint"]
+    },
+    {
+      "id": "ki",
+      "name": "Kings Island",
+      "chain": "Cedar Fair",
+      "queue_times_id": 60,
+      "thrill_data_name": "Kings Island",
+      "aliases": ["kings island", "mason oh"],
+      "subreddits": ["kingsisland"]
+    },
+    {
+      "id": "cw",
+      "name": "Canada's Wonderland",
+      "chain": "Cedar Fair",
+      "queue_times_id": 58,
+      "thrill_data_name": "Canada's Wonderland",
+      "aliases": ["canada's wonderland", "canadas wonderland", "wonderland"],
+      "subreddits": ["CanadasWonderland"]
+    },
+    {
+      "id": "cga",
+      "name": "California's Great America",
+      "chain": "Cedar Fair",
+      "queue_times_id": 57,
+      "thrill_data_name": "California's Great America",
+      "aliases": ["california's great america", "californias great america", "santa clara"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "car",
+      "name": "Carowinds",
+      "chain": "Cedar Fair",
+      "queue_times_id": 59,
+      "thrill_data_name": "Carowinds",
+      "aliases": ["carowinds", "charlotte"],
+      "subreddits": ["carowinds"]
+    },
+    {
+      "id": "kd",
+      "name": "Kings Dominion",
+      "chain": "Cedar Fair",
+      "queue_times_id": 62,
+      "thrill_data_name": "Kings Dominion",
+      "aliases": ["kings dominion", "doswell"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "dp",
+      "name": "Dorney Park",
+      "chain": "Cedar Fair",
+      "queue_times_id": 69,
+      "thrill_data_name": "Dorney Park",
+      "aliases": ["dorney", "allentown"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "vf",
+      "name": "Valleyfair",
+      "chain": "Cedar Fair",
+      "queue_times_id": 68,
+      "thrill_data_name": "Valleyfair",
+      "aliases": ["valleyfair", "shakopee"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "wof",
+      "name": "Worlds of Fun",
+      "chain": "Cedar Fair",
+      "queue_times_id": 63,
+      "thrill_data_name": "World's of Fun",
+      "aliases": ["worlds of fun", "world's of fun", "kansas city"],
+      "subreddits": ["sixflags"]
+    },
+    {
+      "id": "kbf",
+      "name": "Knott's Berry Farm",
+      "chain": "Cedar Fair",
+      "queue_times_id": 61,
+      "thrill_data_name": "Knott's Berry Farm",
+      "aliases": ["knott's", "knotts", "berry farm"],
+      "subreddits": ["KnottsBerryFarm"]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: Refresh Dashboard
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'   # 每小时运行一次
+  workflow_dispatch:          # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch latest park data
+        run: python park_monitor.py --refresh --demo
+        # --demo 保证即使 Reddit 请求失败也能生成页面
+
+      - name: Build standalone dashboard
+        run: python make_share.py
+
+      - name: Set as index page
+        run: cp dashboard_share.html index.html
+
+      - name: Commit and push updated dashboard
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-refresh dashboard [skip ci]"
+          file_pattern: "index.html dashboard_share.html dashboard.html dashboard_data.json dashboard_summary.md data/"

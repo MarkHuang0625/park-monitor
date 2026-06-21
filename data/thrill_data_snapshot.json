@@ -1,0 +1,167 @@
+{
+  "ts": "2026-06-18T07:56:44+00:00",
+  "parks": {
+    "sfga": {
+      "avg_wait_min": 8,
+      "wow_pct": -8.3,
+      "thrill_data_name": "Great America (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfmm": {
+      "avg_wait_min": 8,
+      "wow_pct": 0.0,
+      "thrill_data_name": "Magic Mountain (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfgadv": {
+      "avg_wait_min": 8,
+      "wow_pct": -36.7,
+      "thrill_data_name": "Great Adventure (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfot": {
+      "avg_wait_min": 15,
+      "wow_pct": -4.5,
+      "thrill_data_name": "Over Texas (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfft": {
+      "avg_wait_min": 9,
+      "wow_pct": -13.3,
+      "thrill_data_name": "Fiesta Texas (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfog": {
+      "avg_wait_min": 4,
+      "wow_pct": -46.2,
+      "thrill_data_name": "Over Georgia (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfne": {
+      "avg_wait_min": 6,
+      "wow_pct": 0.0,
+      "thrill_data_name": "New England (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfdk": {
+      "avg_wait_min": 9,
+      "wow_pct": -35.3,
+      "thrill_data_name": "Discovery Kingdom (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfa": {
+      "thrill_data_name": "America (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sfstl": {
+      "thrill_data_name": "Saint Louis (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "sflr": {
+      "avg_wait_min": 22,
+      "wow_pct": -22.2,
+      "thrill_data_name": "La Ronde (Six Flags)",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "cp": {
+      "avg_wait_min": 16,
+      "wow_pct": 16.7,
+      "thrill_data_name": "Cedar Point",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "ki": {
+      "avg_wait_min": 13,
+      "wow_pct": null,
+      "thrill_data_name": "Kings Island",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "cw": {
+      "avg_wait_min": 14,
+      "wow_pct": 8.0,
+      "thrill_data_name": "Canada's Wonderland",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "cga": {
+      "avg_wait_min": 24,
+      "wow_pct": -7.1,
+      "thrill_data_name": "California's Great America",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "car": {
+      "avg_wait_min": 5,
+      "wow_pct": 0.0,
+      "thrill_data_name": "Carowinds",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "kd": {
+      "avg_wait_min": 4,
+      "wow_pct": 0.0,
+      "thrill_data_name": "Kings Dominion",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "dp": {
+      "avg_wait_min": 6,
+      "wow_pct": -15.8,
+      "thrill_data_name": "Dorney Park",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "vf": {
+      "thrill_data_name": "Valleyfair",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "wof": {
+      "thrill_data_name": "World's of Fun",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    },
+    "kbf": {
+      "thrill_data_name": "Knott's Berry Farm",
+      "thrill_waits_url": "https://www.thrill-data.com/waits/",
+      "thrill_graph_url": "https://www.thrill-data.com/graph",
+      "source": "thrill-data.com"
+    }
+  },
+  "notes": [
+    "Thrill Data: HTTP 403",
+    "Using embedded Thrill Data weekly snapshot"
+  ]
+}
