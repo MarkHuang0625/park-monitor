@@ -956,7 +956,7 @@ function renderTable() {{
     const tr = document.createElement('tr');
     tr.style.cursor = 'pointer';
     tr.onclick = () => {{ document.getElementById('parkSelect').value = p.id; showPark(p.id); }};
-    const parkOpen = w.park_is_open;    const waitCell = parkOpen ? `${{w.avg_wait_min ?? '—'}} min` : `<span class="pill" style="background:#555;color:#ccc">Closed</span>`;
+    const parkOpen = w.park_is_open;    const waitCell = parkOpen ? `${{w.avg_wait_min ?? '—'}} min` : `<span class="pill" style="background:#555;color:#ccc">Closed</span>`;    const openCell = parkOpen ? (w.open_count ?? 0) : '—';    const closedCell = parkOpen ? (w.closed_count ?? 0) : '—';    tr.innerHTML = `<td>${{p.name}}</td><td>${{p.chain}}</td>
       <td>${{waitCell}}</td><td>${{openCell}}</td><td>${{closedCell}}</td>
       <td>${{pctPill(td.wow_pct, true)}}</td>
       <td>${{pctPill(wl.wow_pct, true)}}</td>
