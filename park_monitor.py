@@ -879,7 +879,7 @@ const DATA = {data_json};
 const KPI_LABELS = {json.dumps(kpi_labels)};
 const KPI_ICONS = {json.dumps(kpi_icons)};
 
-document.getElementById('updatedAt').textContent = new Date(DATA.generated_at).toLocaleString('en-US', {timeZone: 'America/New_York', year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'}) + ' ET';
+document.getElementById('updatedAt').textContent = new Date(DATA.generated_at).toLocaleString('en-US', {{timeZone: 'America/New_York', year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'}}) + ' ET';
 
 let trendChart = null;
 let chainChart = null;
