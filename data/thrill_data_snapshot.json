@@ -1,5 +1,5 @@
 {
-  "ts": "2026-06-18T07:56:44+00:00",
+  "ts": "2026-06-21T12:19:42+00:00",
   "parks": {
     "sfga": {
       "avg_wait_min": 8,
@@ -161,7 +161,7 @@
     }
   },
   "notes": [
-    "Thrill Data: HTTP 403",
+    "Thrill Data: parsed 0 park blocks",
     "Using embedded Thrill Data weekly snapshot"
   ]
 }

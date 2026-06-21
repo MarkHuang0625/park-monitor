@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T07:56:44+00:00",
+  "generated_at": "2026-06-21T12:19:42+00:00",
   "notes": [
     "r/sixflags: 25 posts (pullpush-archive) (archive; may not include latest posts)",
     "r/SixFlagsMagicMountain: 25 posts (pullpush-archive) (archive; may not include latest posts)",
@@ -23,17 +23,17 @@
     "Six Flags America: avg 0 min (0 open)",
     "Six Flags St. Louis: avg 0 min (0 open)",
     "La Ronde: avg 0 min (0 open)",
-    "Cedar Point: avg 11.1 min (39 open)",
-    "Kings Island: avg 10.9 min (35 open)",
-    "Canada's Wonderland: avg 14.1 min (54 open)",
-    "California's Great America: avg 22.8 min (42 open)",
-    "Carowinds: avg 5.3 min (38 open)",
-    "Kings Dominion: avg 3.8 min (42 open)",
-    "Dorney Park: avg 5.1 min (44 open)",
+    "Cedar Point: avg 37.9 min (55 open)",
+    "Kings Island: avg 21.5 min (39 open)",
+    "Canada's Wonderland: avg 30.0 min (29 open)",
+    "California's Great America: avg 31.5 min (40 open)",
+    "Carowinds: avg 12.8 min (39 open)",
+    "Kings Dominion: avg 11.6 min (23 open)",
+    "Dorney Park: avg 15.0 min (38 open)",
     "Valleyfair: avg 0 min (0 open)",
     "Worlds of Fun: avg 0 min (0 open)",
-    "Knott's Berry Farm: avg 24.7 min (33 open)",
-    "Thrill Data: HTTP 403",
+    "Knott's Berry Farm: avg 38.7 min (32 open)",
+    "Thrill Data: parsed 0 park blocks",
     "Using embedded Thrill Data weekly snapshot"
   ],
   "attributions": {
@@ -172,7 +172,7 @@
     },
     "Cedar Fair": {
       "park_count": 10,
-      "avg_wait_min": 9.8,
+      "avg_wait_min": 19.9,
       "reddit_posts": 123,
       "kpi_counts": {
         "pricing_pass": 13,
@@ -196,7 +196,7 @@
         "park_id": "sfga",
         "park_name": "Six Flags Great America",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:27+00:00",
+        "ts": "2026-06-21T12:19:39+00:00",
         "ride_count": 45,
         "open_count": 0,
         "closed_count": 45,
@@ -240,6 +240,10 @@
       "trend_90d": [
         {
           "date": "2026-06-18",
+          "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
           "avg_wait_min": 0
         }
       ],
@@ -572,7 +576,7 @@
         "queue_times": "https://queue-times.com/parks/38/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -585,7 +589,7 @@
         "park_id": "sfmm",
         "park_name": "Six Flags Magic Mountain",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:28+00:00",
+        "ts": "2026-06-21T12:19:39+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -629,6 +633,10 @@
       "trend_90d": [
         {
           "date": "2026-06-18",
+          "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
           "avg_wait_min": 0
         }
       ],
@@ -972,7 +980,7 @@
         "queue_times": "https://queue-times.com/parks/32/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -985,7 +993,7 @@
         "park_id": "sfgadv",
         "park_name": "Six Flags Great Adventure",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:29+00:00",
+        "ts": "2026-06-21T12:19:39+00:00",
         "ride_count": 42,
         "open_count": 0,
         "closed_count": 42,
@@ -1030,6 +1038,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [
@@ -1061,7 +1073,7 @@
         "queue_times": "https://queue-times.com/parks/37/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -1074,7 +1086,7 @@
         "park_id": "sfot",
         "park_name": "Six Flags Over Texas",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:30+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 44,
         "open_count": 0,
         "closed_count": 44,
@@ -1118,6 +1130,10 @@
       "trend_90d": [
         {
           "date": "2026-06-18",
+          "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
           "avg_wait_min": 0
         }
       ],
@@ -1448,7 +1464,7 @@
         "queue_times": "https://queue-times.com/parks/34/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -1461,7 +1477,7 @@
         "park_id": "sfft",
         "park_name": "Six Flags Fiesta Texas",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:30+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 57,
         "open_count": 0,
         "closed_count": 57,
@@ -1505,6 +1521,10 @@
       "trend_90d": [
         {
           "date": "2026-06-18",
+          "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
           "avg_wait_min": 0
         }
       ],
@@ -1849,7 +1869,7 @@
         "queue_times": "https://queue-times.com/parks/39/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -1862,7 +1882,7 @@
         "park_id": "sfog",
         "park_name": "Six Flags Over Georgia",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:31+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 42,
         "open_count": 0,
         "closed_count": 42,
@@ -1907,6 +1927,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -1916,7 +1940,7 @@
         "queue_times": "https://queue-times.com/parks/35/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -1929,7 +1953,7 @@
         "park_id": "sfne",
         "park_name": "Six Flags New England",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:32+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 57,
         "open_count": 0,
         "closed_count": 57,
@@ -1974,6 +1998,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [
@@ -2014,7 +2042,7 @@
         "queue_times": "https://queue-times.com/parks/43/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2027,7 +2055,7 @@
         "park_id": "sfdk",
         "park_name": "Six Flags Discovery Kingdom",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:33+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 37,
         "open_count": 0,
         "closed_count": 37,
@@ -2072,6 +2100,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -2081,7 +2113,7 @@
         "queue_times": "https://queue-times.com/parks/33/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2094,7 +2126,7 @@
         "park_id": "sfa",
         "park_name": "Six Flags America",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:34+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 0,
         "open_count": 0,
         "closed_count": 0,
@@ -2121,6 +2153,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -2130,7 +2166,7 @@
         "queue_times": "https://queue-times.com/parks/42/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2143,7 +2179,7 @@
         "park_id": "sfstl",
         "park_name": "Six Flags St. Louis",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:34+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -2186,6 +2222,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -2195,7 +2235,7 @@
         "queue_times": "https://queue-times.com/parks/36/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2208,7 +2248,7 @@
         "park_id": "sflr",
         "park_name": "La Ronde",
         "chain": "Six Flags",
-        "ts": "2026-06-18T07:56:35+00:00",
+        "ts": "2026-06-21T12:19:40+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -2253,6 +2293,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [
@@ -2282,7 +2326,7 @@
         "queue_times": "https://queue-times.com/parks/48/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2295,79 +2339,78 @@
         "park_id": "cp",
         "park_name": "Cedar Point",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:36+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 69,
-        "open_count": 39,
-        "closed_count": 30,
-        "avg_wait_min": 11.1,
-        "max_wait_min": 45,
-        "median_wait_min": 5,
+        "open_count": 55,
+        "closed_count": 14,
+        "avg_wait_min": 37.9,
+        "max_wait_min": 150,
+        "median_wait_min": 30,
         "top_waits": [
-          {
-            "name": "Valravn",
-            "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-18T01:55:13.000Z"
-          },
           {
             "name": "Siren's Curse",
             "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 150,
+            "last_updated": "2026-06-21T01:55:23.000Z"
+          },
+          {
+            "name": "Top Thrill 2",
+            "is_open": true,
+            "wait_time": 90,
+            "last_updated": "2026-06-21T01:55:23.000Z"
+          },
+          {
+            "name": "Maverick",
+            "is_open": true,
+            "wait_time": 75,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           },
           {
             "name": "Steel Vengeance",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 60,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           },
           {
-            "name": "Blue Streak",
+            "name": "Magnum XL-200",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 35,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           },
           {
-            "name": "Iron Dragon",
+            "name": "Cedar Creek Mine Ride",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           },
           {
-            "name": "Rougarou",
+            "name": "Millennium Force",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           },
           {
-            "name": "Power Tower Drop",
+            "name": "Pipe Scream",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:55:13.000Z"
-          },
-          {
-            "name": "Power Tower Shot",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:55:13.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:23.000Z"
           }
         ],
         "closed_rides": [
-          "Cedar Creek Mine Ride",
           "Corkscrew",
-          "GateKeeper",
-          "Gemini",
-          "Magnum XL-200",
-          "Maverick",
-          "Millennium Force",
-          "Raptor",
-          "Top Thrill 2",
-          "Wild Mouse",
-          "Woodstock Express",
+          "Rougarou",
+          "Valravn",
           "Flying Ace Balloon Race",
-          "Giant Wheel",
           "PEANUTS™ Road Rally",
-          "Sky Ride East"
+          "Snoopys Deep Sea Divers",
+          "Snoopys Express Railroad",
+          "Joe Cool’s Dodgem School",
+          "Kite-Eating Tree",
+          "Snoopys Space Race",
+          "Woodstocks Whirlybirds",
+          "MaXair",
+          "WindSeeker",
+          "Crosscurrent"
         ],
         "source_url": "https://queue-times.com/parks/50/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -2384,11 +2427,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 241.4,
+        "current": 37.9,
+        "prior": 11.1
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 11.1
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 37.9
         }
       ],
       "reddit_posts": [
@@ -2722,7 +2773,7 @@
         "queue_times": "https://queue-times.com/parks/50/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -2735,64 +2786,65 @@
         "park_id": "ki",
         "park_name": "Kings Island",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:37+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 71,
-        "open_count": 35,
-        "closed_count": 36,
-        "avg_wait_min": 10.9,
-        "max_wait_min": 30,
-        "median_wait_min": 5,
+        "open_count": 39,
+        "closed_count": 32,
+        "avg_wait_min": 21.5,
+        "max_wait_min": 45,
+        "median_wait_min": 20,
         "top_waits": [
           {
-            "name": "Kings Mills Antique Autos",
+            "name": "Phantom Theater: Opening Nightmare",
+            "is_open": true,
+            "wait_time": 45,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Mystic Timbers",
+            "is_open": true,
+            "wait_time": 40,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Diamondback",
             "is_open": true,
             "wait_time": 30,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Sol Spin",
-            "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Franklin's Flyers",
-            "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Adventure Express",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Banshee",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Flight Of Fear",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-18T01:56:14.000Z"
-          },
-          {
-            "name": "Invertigo",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:56:14.000Z"
+            "last_updated": "2026-06-21T01:56:12.000Z"
           },
           {
             "name": "Queen City Stunt Coaster",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T01:56:14.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Surf Dog",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Drop Tower",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Franklin's Flyers",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T01:56:12.000Z"
+          },
+          {
+            "name": "Banshee",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T01:56:12.000Z"
           }
         ],
         "closed_rides": [
+          "Invertigo",
           "Orion",
           "The Beast",
           "The Racer Blue",
@@ -2802,12 +2854,11 @@
           "K.I. and Miami Valley Railroad - Rivertown Station",
           "K.I. and Miami Valley Railroad - Soak City Station",
           "Shake, Rattle and Roll",
-          "Viking Fury",
           "White Water Canyon",
           "Charlie Brown's Rushing River Log Ride",
-          "Surf Dog",
-          "Woodstock Whirlybirds",
-          "Woodstock's Air Rail"
+          "WindSeeker",
+          "Aruba Tuba",
+          "Breakers Bay"
         ],
         "source_url": "https://queue-times.com/parks/60/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -2824,11 +2875,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 97.2,
+        "current": 21.5,
+        "prior": 10.9
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 10.9
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 21.5
         }
       ],
       "reddit_posts": [
@@ -3166,7 +3225,7 @@
         "queue_times": "https://queue-times.com/parks/60/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -3179,79 +3238,79 @@
         "park_id": "cw",
         "park_name": "Canada's Wonderland",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:38+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 80,
-        "open_count": 54,
-        "closed_count": 26,
-        "avg_wait_min": 14.1,
-        "max_wait_min": 45,
-        "median_wait_min": 10,
+        "open_count": 29,
+        "closed_count": 51,
+        "avg_wait_min": 30.0,
+        "max_wait_min": 100,
+        "median_wait_min": 20,
         "top_waits": [
           {
             "name": "AlpenFury",
             "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-17T23:55:49.000Z"
+            "wait_time": 100,
+            "last_updated": "2026-06-21T01:55:40.000Z"
           },
           {
             "name": "Yukon Striker",
             "is_open": true,
-            "wait_time": 25,
-            "last_updated": "2026-06-17T23:55:49.000Z"
-          },
-          {
-            "name": "Backlot Stunt Coaster",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-17T23:55:49.000Z"
-          },
-          {
-            "name": "Behemoth",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-17T23:55:49.000Z"
-          },
-          {
-            "name": "Leviathan",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-17T23:55:49.000Z"
+            "wait_time": 50,
+            "last_updated": "2026-06-21T01:55:40.000Z"
           },
           {
             "name": "Mighty Canadian Minebuster",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-17T23:55:49.000Z"
+            "wait_time": 40,
+            "last_updated": "2026-06-21T01:55:40.000Z"
+          },
+          {
+            "name": "Leviathan",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:40.000Z"
+          },
+          {
+            "name": "Backlot Stunt Coaster",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T01:55:40.000Z"
+          },
+          {
+            "name": "Behemoth",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T01:55:40.000Z"
+          },
+          {
+            "name": "Drop Tower",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T01:55:40.000Z"
           },
           {
             "name": "Psyclone",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-17T23:55:49.000Z"
-          },
-          {
-            "name": "Vortex",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:55:49.000Z"
+            "wait_time": 15,
+            "last_updated": "2026-06-21T01:55:40.000Z"
           }
         ],
         "closed_rides": [
-          "The Fly",
-          "Jokey's Jalopies",
-          "KidZville Station",
-          "Maple Park Tree House",
-          "Treetop Adventure",
-          "Sledge Hammer",
-          "SlingShot",
-          "WindSeeker",
-          "Barracuda Blaster",
-          "Black Hole",
-          "Lakeside Lagoon - Pool",
-          "Lakeside Lagoon - Slides",
-          "Lazy River",
-          "Moosehorn Falls",
-          "Mountain Bay Cliffs"
+          "Ghoster Coaster",
+          "Silver Streak",
+          "Taxi Jam",
+          "Flying Canoes",
+          "Flying Eagles",
+          "Snoopy's Racing Railway",
+          "Timberwolf Falls",
+          "White Water Canyon",
+          "Beagle Brigade Airfield",
+          "Blast Off!",
+          "Boo Blasters on Boo Hill",
+          "Character Carrousel",
+          "Frequent Flyers",
+          "Joe Cool's Dodgem School",
+          "Jokey's Jalopies"
         ],
         "source_url": "https://queue-times.com/parks/58/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -3268,11 +3327,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 112.8,
+        "current": 30.0,
+        "prior": 14.1
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 14.1
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 30.0
         }
       ],
       "reddit_posts": [
@@ -3611,7 +3678,7 @@
         "queue_times": "https://queue-times.com/parks/58/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -3624,65 +3691,67 @@
         "park_id": "cga",
         "park_name": "California's Great America",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:38+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 54,
-        "open_count": 42,
-        "closed_count": 12,
-        "avg_wait_min": 22.8,
-        "max_wait_min": 55,
+        "open_count": 40,
+        "closed_count": 14,
+        "avg_wait_min": 31.5,
+        "max_wait_min": 75,
         "median_wait_min": 20,
         "top_waits": [
           {
-            "name": "Psycho Mouse",
+            "name": "Gold Striker",
             "is_open": true,
-            "wait_time": 55,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "wait_time": 75,
+            "last_updated": "2026-06-21T04:55:57.000Z"
           },
           {
             "name": "Tiki Twirl",
             "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "wait_time": 75,
+            "last_updated": "2026-06-21T04:55:57.000Z"
           },
           {
-            "name": "Grizzly",
+            "name": "Barney Oldfield's Redwood Rally",
             "is_open": true,
-            "wait_time": 35,
-            "last_updated": "2026-06-18T02:55:20.000Z"
-          },
-          {
-            "name": "Gold Striker",
-            "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "wait_time": 60,
+            "last_updated": "2026-06-21T04:55:57.000Z"
           },
           {
             "name": "Flight Deck",
             "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "wait_time": 45,
+            "last_updated": "2026-06-21T04:55:57.000Z"
+          },
+          {
+            "name": "Grizzly",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T04:55:57.000Z"
           },
           {
             "name": "RailBlazer",
             "is_open": true,
             "wait_time": 20,
-            "last_updated": "2026-06-18T02:55:20.000Z"
-          },
-          {
-            "name": "Barney Oldfield's Redwood Rally",
-            "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "last_updated": "2026-06-21T04:55:57.000Z"
           },
           {
             "name": "Flying Eagles",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-18T02:55:20.000Z"
+            "last_updated": "2026-06-21T04:55:57.000Z"
+          },
+          {
+            "name": "Demon",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T04:55:57.000Z"
           }
         ],
         "closed_rides": [
           "Rip Roaring Rapids",
+          "Character Carousel",
+          "Joe Cools Dodgem School",
           "Barracuda",
           "Breakers Bay",
           "Coastal Cruz",
@@ -3710,11 +3779,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 38.2,
+        "current": 31.5,
+        "prior": 22.8
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 22.8
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 31.5
         }
       ],
       "reddit_posts": [],
@@ -3724,7 +3801,7 @@
         "queue_times": "https://queue-times.com/parks/57/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -3737,68 +3814,67 @@
         "park_id": "car",
         "park_name": "Carowinds",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:39+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 59,
-        "open_count": 38,
-        "closed_count": 21,
-        "avg_wait_min": 5.3,
-        "max_wait_min": 15,
-        "median_wait_min": 5,
+        "open_count": 39,
+        "closed_count": 20,
+        "avg_wait_min": 12.8,
+        "max_wait_min": 45,
+        "median_wait_min": 10,
         "top_waits": [
           {
-            "name": "Copperhead Strike",
+            "name": "The Flying Cobras",
             "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-17T23:56:04.000Z"
+            "wait_time": 45,
+            "last_updated": "2026-06-21T01:55:55.000Z"
           },
           {
-            "name": "Ricochet",
+            "name": "Snoopy vs Red Baron",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-17T23:56:04.000Z"
-          },
-          {
-            "name": "Flying Ace Balloon Race",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-17T23:56:04.000Z"
-          },
-          {
-            "name": "Carolina Goldrusher",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:04.000Z"
-          },
-          {
-            "name": "Hurler",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:04.000Z"
+            "wait_time": 40,
+            "last_updated": "2026-06-21T01:55:55.000Z"
           },
           {
             "name": "Snoopy's Racing Railway",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:04.000Z"
+            "wait_time": 37,
+            "last_updated": "2026-06-21T01:55:55.000Z"
           },
           {
-            "name": "Thunder Striker",
+            "name": "Fury 325",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:04.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:55.000Z"
           },
           {
-            "name": "Vortex",
+            "name": "Kiddy Hawk",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:04.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T01:55:55.000Z"
+          },
+          {
+            "name": "Flying Ace Balloon Race",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T01:55:55.000Z"
+          },
+          {
+            "name": "Woodstock Express",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T01:55:55.000Z"
+          },
+          {
+            "name": "Rock 'N' Roller",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T01:55:55.000Z"
           }
         ],
         "closed_rides": [
           "Afterburn",
-          "Fury 325",
-          "The Flying Cobras",
-          "Electro-Spin",
+          "Thunder Striker",
+          "Windstar",
           "Gear Spin",
           "Barracuda Blasters",
           "Blackbeards Revenge - Pirate's Plank",
@@ -3809,7 +3885,8 @@
           "Pelican Plunge",
           "Pirates Landing",
           "Seaside Splashworks",
-          "Surf Club Harbor"
+          "Surf Club Harbor",
+          "Tidal Wave Bay"
         ],
         "source_url": "https://queue-times.com/parks/59/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -3826,11 +3903,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 141.5,
+        "current": 12.8,
+        "prior": 5.3
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 5.3
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 12.8
         }
       ],
       "reddit_posts": [
@@ -4160,7 +4245,7 @@
         "queue_times": "https://queue-times.com/parks/59/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -4173,78 +4258,79 @@
         "park_id": "kd",
         "park_name": "Kings Dominion",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:40+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 56,
-        "open_count": 42,
-        "closed_count": 14,
-        "avg_wait_min": 3.8,
-        "max_wait_min": 10,
-        "median_wait_min": 4,
+        "open_count": 23,
+        "closed_count": 33,
+        "avg_wait_min": 11.6,
+        "max_wait_min": 55,
+        "median_wait_min": 5,
         "top_waits": [
           {
-            "name": "Twisted Timbers",
+            "name": "Rapterra",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-18T00:56:52.000Z"
-          },
-          {
-            "name": "Delirium",
-            "is_open": true,
-            "wait_time": 7,
-            "last_updated": "2026-06-18T00:56:52.000Z"
-          },
-          {
-            "name": "Dominator",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
+            "wait_time": 55,
+            "last_updated": "2026-06-21T01:56:44.000Z"
           },
           {
             "name": "Flight of Fear",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
+            "wait_time": 35,
+            "last_updated": "2026-06-21T01:56:44.000Z"
           },
           {
-            "name": "Rapterra",
+            "name": "Twisted Timbers",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
-          },
-          {
-            "name": "Bad Apple",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
+            "wait_time": 35,
+            "last_updated": "2026-06-21T01:56:44.000Z"
           },
           {
             "name": "Blue Ridge Tollway",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
+            "wait_time": 25,
+            "last_updated": "2026-06-21T01:56:44.000Z"
+          },
+          {
+            "name": "WindSeeker",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T01:56:44.000Z"
+          },
+          {
+            "name": "Drop Tower",
+            "is_open": true,
+            "wait_time": 13,
+            "last_updated": "2026-06-21T01:56:44.000Z"
           },
           {
             "name": "Flying Eagles",
             "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-18T00:56:52.000Z"
+            "wait_time": 10,
+            "last_updated": "2026-06-21T01:56:44.000Z"
+          },
+          {
+            "name": "Dodgem",
+            "is_open": true,
+            "wait_time": 6,
+            "last_updated": "2026-06-21T01:56:44.000Z"
           }
         ],
         "closed_rides": [
+          "Backlot Stunt Coaster",
+          "Pantherian",
           "Racer 75 - South",
+          "Boo Blasters on Boo Hill",
+          "Flying Ace",
           "Woodstock Express",
-          "Baja Bends",
-          "Hurricane Heights Body Slides",
-          "Hurricane Heights Tube Slides",
-          "Lazy Rider",
-          "Lighthouse Landing",
-          "Lil' Barefoot Beach",
-          "Pipeline Peak Body Slides",
-          "Pipeline Peak Tube Slides",
-          "Sand Dune Lagoon",
-          "Splash Island",
-          "Tidal Wave Bay",
-          "Zoom Flume"
+          "Charlie Brown's Wind Up",
+          "Flying Ace Balloon Race",
+          "Great Pumpkin Coaster",
+          "Kite Eating Tree",
+          "Linus Launcher",
+          "Lucy's Crabbie Cabbies",
+          "Lucy's Tugboat",
+          "PEANUTS™ 500",
+          "PEANUTS™ Turnpike"
         ],
         "source_url": "https://queue-times.com/parks/62/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -4261,11 +4347,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 205.3,
+        "current": 11.6,
+        "prior": 3.8
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 3.8
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 11.6
         }
       ],
       "reddit_posts": [
@@ -4312,7 +4406,7 @@
         "queue_times": "https://queue-times.com/parks/62/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -4325,64 +4419,70 @@
         "park_id": "dp",
         "park_name": "Dorney Park",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:41+00:00",
+        "ts": "2026-06-21T12:19:41+00:00",
         "ride_count": 60,
-        "open_count": 44,
-        "closed_count": 16,
-        "avg_wait_min": 5.1,
-        "max_wait_min": 10,
-        "median_wait_min": 5,
+        "open_count": 38,
+        "closed_count": 22,
+        "avg_wait_min": 15.0,
+        "max_wait_min": 30,
+        "median_wait_min": 15,
         "top_waits": [
+          {
+            "name": "Dominator Green",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
+          {
+            "name": "Dominator Red",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
+          {
+            "name": "Steel Force",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
           {
             "name": "Wild Mouse",
             "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
+          {
+            "name": "Snoopy's Rocket Express",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
+          {
+            "name": "Iron Menace",
+            "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-17T23:56:55.000Z"
+            "last_updated": "2026-06-21T00:56:55.000Z"
+          },
+          {
+            "name": "Possessed",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T00:56:55.000Z"
           },
           {
             "name": "Hydra",
             "is_open": true,
             "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Iron Menace",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Talon",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Snoopy's Rocket Express",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Dominator Green",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Thunder Creek Mountain",
-            "is_open": true,
-            "wait_time": 1,
-            "last_updated": "2026-06-17T23:56:55.000Z"
-          },
-          {
-            "name": "Possessed",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-17T23:56:55.000Z"
+            "last_updated": "2026-06-21T00:56:55.000Z"
           }
         ],
         "closed_rides": [
+          "Cedar Creek Cannonball",
+          "Wave Swinger",
+          "Kite Eating Tree",
+          "Thunder Canyon",
+          "Thunder Creek Mountain",
+          "White Water Landing",
           "Aqua Racer",
           "Aquablast",
           "Boa Blaster and Constrictor",
@@ -4391,13 +4491,7 @@
           "Kids Cove",
           "Lighting Falls",
           "Lollipop Lagoon",
-          "Patriots Plunge",
-          "Python Plummet",
-          "Runaway River",
-          "Seaside Splashworks",
-          "Wave Pool",
-          "Wildwater Cove",
-          "Wildwater Rapids"
+          "Patriots Plunge"
         ],
         "source_url": "https://queue-times.com/parks/69/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/"
@@ -4414,11 +4508,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 194.1,
+        "current": 15.0,
+        "prior": 5.1
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 5.1
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 15.0
         }
       ],
       "reddit_posts": [],
@@ -4428,7 +4530,7 @@
         "queue_times": "https://queue-times.com/parks/69/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -4441,7 +4543,7 @@
         "park_id": "vf",
         "park_name": "Valleyfair",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:42+00:00",
+        "ts": "2026-06-21T12:19:42+00:00",
         "ride_count": 39,
         "open_count": 0,
         "closed_count": 39,
@@ -4484,6 +4586,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -4493,7 +4599,7 @@
         "queue_times": "https://queue-times.com/parks/68/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -4506,7 +4612,7 @@
         "park_id": "wof",
         "park_name": "Worlds of Fun",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:42+00:00",
+        "ts": "2026-06-21T12:19:42+00:00",
         "ride_count": 44,
         "open_count": 0,
         "closed_count": 44,
@@ -4549,6 +4655,10 @@
         {
           "date": "2026-06-18",
           "avg_wait_min": 0
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 0
         }
       ],
       "reddit_posts": [],
@@ -4558,7 +4668,7 @@
         "queue_times": "https://queue-times.com/parks/63/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     },
     {
@@ -4571,66 +4681,67 @@
         "park_id": "kbf",
         "park_name": "Knott's Berry Farm",
         "chain": "Cedar Fair",
-        "ts": "2026-06-18T07:56:43+00:00",
+        "ts": "2026-06-21T12:19:42+00:00",
         "ride_count": 46,
-        "open_count": 33,
-        "closed_count": 13,
-        "avg_wait_min": 24.7,
-        "max_wait_min": 75,
-        "median_wait_min": 25,
+        "open_count": 32,
+        "closed_count": 14,
+        "avg_wait_min": 38.7,
+        "max_wait_min": 180,
+        "median_wait_min": 30,
         "top_waits": [
           {
             "name": "GhostRider",
             "is_open": true,
-            "wait_time": 75,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "wait_time": 180,
+            "last_updated": "2026-06-21T05:56:21.000Z"
+          },
+          {
+            "name": "Xcelerator The Ride",
+            "is_open": true,
+            "wait_time": 60,
+            "last_updated": "2026-06-21T05:56:21.000Z"
+          },
+          {
+            "name": "Timber Mountain Log Ride",
+            "is_open": true,
+            "wait_time": 60,
+            "last_updated": "2026-06-21T05:56:21.000Z"
           },
           {
             "name": "Coast Rider",
             "is_open": true,
             "wait_time": 45,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "last_updated": "2026-06-21T05:56:21.000Z"
           },
           {
-            "name": "Jaguar!",
+            "name": "Knott's Bear-y Tales: Return to the Fair",
             "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-18T04:56:39.000Z"
-          },
-          {
-            "name": "Sierra Sidewinder",
-            "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "wait_time": 40,
+            "last_updated": "2026-06-21T05:56:21.000Z"
           },
           {
             "name": "HangTime",
             "is_open": true,
             "wait_time": 30,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "last_updated": "2026-06-21T05:56:21.000Z"
           },
           {
-            "name": "Xcelerator The Ride",
+            "name": "Jaguar!",
             "is_open": true,
             "wait_time": 30,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "last_updated": "2026-06-21T05:56:21.000Z"
           },
           {
-            "name": "Timber Mountain Log Ride",
+            "name": "Sierra Sidewinder",
             "is_open": true,
             "wait_time": 30,
-            "last_updated": "2026-06-18T04:56:39.000Z"
-          },
-          {
-            "name": "Silver Bullet",
-            "is_open": true,
-            "wait_time": 25,
-            "last_updated": "2026-06-18T04:56:39.000Z"
+            "last_updated": "2026-06-21T05:56:21.000Z"
           }
         ],
         "closed_rides": [
+          "Silver Bullet",
           "Butterfield Stagecoach",
-          "Calico Railroad",
+          "Linus Launcher",
           "Aqua Launch",
           "Aqua Tube",
           "Banzai Falls",
@@ -4656,11 +4767,19 @@
         "available": false,
         "reason": "Need ~365 days of daily snapshots"
       },
-      "wow_local": null,
+      "wow_local": {
+        "wow_pct": 56.7,
+        "current": 38.7,
+        "prior": 24.7
+      },
       "trend_90d": [
         {
           "date": "2026-06-18",
           "avg_wait_min": 24.7
+        },
+        {
+          "date": "2026-06-21",
+          "avg_wait_min": 38.7
         }
       ],
       "reddit_posts": [
@@ -4999,7 +5118,7 @@
         "queue_times": "https://queue-times.com/parks/61/queue_times.json",
         "thrill_data_waits": "https://www.thrill-data.com/waits/",
         "thrill_data_graph": "https://www.thrill-data.com/graph",
-        "reddit_cache": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl"
+        "reddit_cache": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl"
       }
     }
   ],
@@ -5017,10 +5136,10 @@
     },
     "unassigned_count": 0
   },
-  "history_days": 1,
+  "history_days": 2,
   "data_files": {
-    "wait_history": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\wait_history.jsonl",
-    "reddit_posts": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\reddit_posts.jsonl",
-    "thrill_snapshot": "C:\\Users\\duo.bai\\Downloads\\park_monitor\\data\\thrill_data_snapshot.json"
+    "wait_history": "/home/runner/work/park-monitor/park-monitor/data/wait_history.jsonl",
+    "reddit_posts": "/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl",
+    "thrill_snapshot": "/home/runner/work/park-monitor/park-monitor/data/thrill_data_snapshot.json"
   }
 }

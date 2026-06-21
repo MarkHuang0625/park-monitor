@@ -1,65 +1,65 @@
 # Theme Park Performance Monitor
 
-**Updated:** 2026-06-18T07:56:44+00:00
+**Updated:** 2026-06-21T12:19:42+00:00
 
 ## Chain summary
 
 | Chain | Parks | Avg wait (live) | Reddit posts (14d) | Top KPI signals |
 | --- | ---: | ---: | ---: | --- |
 | Six Flags | 11 | 0.0 min | 124 | Pricing / passes (21), Long waits (14), Ride closure / downtime (12) |
-| Cedar Fair | 10 | 9.8 min | 123 | Crowding (15), Pricing / passes (13), Food & service (13) |
+| Cedar Fair | 10 | 19.9 min | 123 | Crowding (15), Pricing / passes (13), Food & service (13) |
 
 ## Parks
 
 ### California's Great America (Cedar Fair)
-- Live avg wait: **22.8 min** (42 rides open)
+- Live avg wait: **31.5 min** (40 rides open)
 - Thrill Data weekly Δ: **-7.1%** (avg 24 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Sources: [Queue-Times](https://queue-times.com/parks/57/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Canada's Wonderland (Cedar Fair)
-- Live avg wait: **14.1 min** (54 rides open)
+- Live avg wait: **30.0 min** (29 rides open)
 - Thrill Data weekly Δ: **+8.0%** (avg 14 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Pricing / passes ×6, Crowding ×6, Food & service ×3, Long waits ×2, Ride closure / downtime ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/58/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Carowinds (Cedar Fair)
-- Live avg wait: **5.3 min** (38 rides open)
+- Live avg wait: **12.8 min** (39 rides open)
 - Thrill Data weekly Δ: **+0.0%** (avg 5 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Pricing / passes ×2, Ride closure / downtime ×1, Crowding ×1, Long waits ×1, Staffing / ops ×1, Food & service ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/59/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Cedar Point (Cedar Fair)
-- Live avg wait: **11.1 min** (39 rides open)
+- Live avg wait: **37.9 min** (55 rides open)
 - Thrill Data weekly Δ: **+16.7%** (avg 16 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Ride closure / downtime ×4, Food & service ×3, Long waits ×3, Pricing / passes ×1, Crowding ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/50/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Dorney Park (Cedar Fair)
-- Live avg wait: **5.1 min** (44 rides open)
+- Live avg wait: **15.0 min** (38 rides open)
 - Thrill Data weekly Δ: **-15.8%** (avg 6 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Sources: [Queue-Times](https://queue-times.com/parks/69/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Kings Dominion (Cedar Fair)
-- Live avg wait: **3.8 min** (42 rides open)
+- Live avg wait: **11.6 min** (23 rides open)
 - Thrill Data weekly Δ: **+0.0%** (avg 4 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Pricing / passes ×2
 - Sources: [Queue-Times](https://queue-times.com/parks/62/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Kings Island (Cedar Fair)
-- Live avg wait: **10.9 min** (35 rides open)
+- Live avg wait: **21.5 min** (39 rides open)
 - Thrill Data weekly Δ: **n/a** (avg 13 min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Long waits ×4, Crowding ×3, Food & service ×2, Ride closure / downtime ×1, Cleanliness ×1, Pricing / passes ×1
 - Sources: [Queue-Times](https://queue-times.com/parks/60/queue_times.json) · [Thrill Data waits](https://www.thrill-data.com/waits/)
 
 ### Knott's Berry Farm (Cedar Fair)
-- Live avg wait: **24.7 min** (33 rides open)
+- Live avg wait: **38.7 min** (32 rides open)
 - Thrill Data weekly Δ: **n/a** (avg — min on thrill-data.com)
 - Local y/y trend: **collecting history**
 - Reddit KPI flags: Crowding ×4, Food & service ×4, Long waits ×2, Ride closure / downtime ×2, Pricing / passes ×1, Cleanliness ×1
@@ -151,6 +151,6 @@
 
 ## Data files
 
-- `wait_history`: `C:\Users\duo.bai\Downloads\park_monitor\data\wait_history.jsonl`
-- `reddit_posts`: `C:\Users\duo.bai\Downloads\park_monitor\data\reddit_posts.jsonl`
-- `thrill_snapshot`: `C:\Users\duo.bai\Downloads\park_monitor\data\thrill_data_snapshot.json`
+- `wait_history`: `/home/runner/work/park-monitor/park-monitor/data/wait_history.jsonl`
+- `reddit_posts`: `/home/runner/work/park-monitor/park-monitor/data/reddit_posts.jsonl`
+- `thrill_snapshot`: `/home/runner/work/park-monitor/park-monitor/data/thrill_data_snapshot.json`
