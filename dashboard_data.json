@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T15:41:27+00:00",
+  "generated_at": "2026-06-21T17:21:59+00:00",
   "notes": [
     "r/sixflags: 25 posts (pullpush-archive) (archive; may not include latest posts)",
     "r/SixFlagsMagicMountain: 25 posts (pullpush-archive) (archive; may not include latest posts)",
@@ -10,29 +10,29 @@
     "r/cedarpoint: 25 posts (pullpush-archive) (archive; may not include latest posts)",
     "r/kingsisland: 25 posts (pullpush-archive) (archive; may not include latest posts)",
     "r/carowinds: 25 posts (pullpush-archive) (archive; may not include latest posts)",
-    "r/CanadasWonderland: failed (403 Client Error: Blocked for url: https://www.reddit.com/r/CanadasWonderland/new.json?limit=25; HTTPSConnectionPool(host='api.pullpush.io', port=443): Read timed out. (read timeout=45))",
+    "r/CanadasWonderland: 25 posts (pullpush-archive) (archive; may not include latest posts)",
     "r/KnottsBerryFarm: 25 posts (pullpush-archive) (archive; may not include latest posts)",
-    "Six Flags Great America: avg 17.0 min (33 open)",
+    "Six Flags Great America: avg 10.1 min (38 open)",
     "Six Flags Magic Mountain: avg 0 min (0 open)",
-    "Six Flags Great Adventure: avg 0 min (38 open)",
-    "Six Flags Over Texas: avg 0 min (0 open)",
-    "Six Flags Fiesta Texas: avg 0 min (22 open)",
-    "Six Flags Over Georgia: avg 0 min (33 open)",
-    "Six Flags New England: avg 8.4 min (48 open)",
+    "Six Flags Great Adventure: avg 45.0 min (40 open)",
+    "Six Flags Over Texas: avg 13.8 min (35 open)",
+    "Six Flags Fiesta Texas: avg 10.4 min (41 open)",
+    "Six Flags Over Georgia: avg 5.0 min (40 open)",
+    "Six Flags New England: avg 8.1 min (51 open)",
     "Six Flags Discovery Kingdom: avg 0 min (0 open)",
     "Six Flags America: avg 0 min (0 open)",
     "Six Flags St. Louis: avg 0 min (0 open)",
     "La Ronde: avg 0 min (0 open)",
-    "Cedar Point: avg 37.1 min (52 open)",
-    "Kings Island: avg 11.9 min (64 open)",
-    "Canada's Wonderland: avg 21.1 min (73 open)",
-    "California's Great America: avg 31.5 min (40 open)",
-    "Carowinds: avg 6.6 min (54 open)",
-    "Kings Dominion: avg 4.0 min (42 open)",
-    "Dorney Park: avg 5.5 min (52 open)",
+    "Cedar Point: avg 28.0 min (66 open)",
+    "Kings Island: avg 14.7 min (68 open)",
+    "Canada's Wonderland: avg 22.8 min (76 open)",
+    "California's Great America: avg 5.5 min (34 open)",
+    "Carowinds: avg 7.2 min (55 open)",
+    "Kings Dominion: avg 6.6 min (55 open)",
+    "Dorney Park: avg 15.2 min (58 open)",
     "Valleyfair: avg 0 min (0 open)",
     "Worlds of Fun: avg 0 min (0 open)",
-    "Knott's Berry Farm: avg 38.7 min (32 open)",
+    "Knott's Berry Farm: avg 18.0 min (42 open)",
     "Thrill Data: parsed 0 park blocks",
     "Using embedded Thrill Data weekly snapshot"
   ],
@@ -157,7 +157,7 @@
   "chains": {
     "Six Flags": {
       "park_count": 11,
-      "avg_wait_min": 2.3,
+      "avg_wait_min": 8.4,
       "reddit_posts": 124,
       "kpi_counts": {
         "long_waits": 14,
@@ -172,14 +172,14 @@
     },
     "Cedar Fair": {
       "park_count": 10,
-      "avg_wait_min": 15.6,
-      "reddit_posts": 98,
+      "avg_wait_min": 11.8,
+      "reddit_posts": 123,
       "kpi_counts": {
-        "pricing_pass": 7,
-        "food_service": 10,
-        "ride_closure": 8,
-        "crowding": 10,
-        "long_waits": 10,
+        "pricing_pass": 13,
+        "food_service": 13,
+        "ride_closure": 9,
+        "crowding": 15,
+        "long_waits": 12,
         "cleanliness": 2,
         "staffing_ops": 1
       }
@@ -196,74 +196,69 @@
         "park_id": "sfga",
         "park_name": "Six Flags Great America",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:24+00:00",
+        "ts": "2026-06-21T17:21:56+00:00",
         "ride_count": 45,
-        "open_count": 33,
-        "closed_count": 12,
-        "avg_wait_min": 17.0,
-        "max_wait_min": 35,
-        "median_wait_min": 15,
+        "open_count": 38,
+        "closed_count": 7,
+        "avg_wait_min": 10.1,
+        "max_wait_min": 20,
+        "median_wait_min": 10,
         "top_waits": [
           {
             "name": "Maxx Force",
             "is_open": true,
-            "wait_time": 35,
-            "last_updated": "2026-06-21T15:40:21.000Z"
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:20:23.000Z"
           },
           {
             "name": "SUPERMAN™: Ultimate Flight",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T15:40:21.000Z"
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:20:23.000Z"
           },
           {
             "name": "Wrath of Rakshasa",
             "is_open": true,
-            "wait_time": 29,
-            "last_updated": "2026-06-21T15:40:21.000Z"
-          },
-          {
-            "name": "Goliath",
-            "is_open": true,
             "wait_time": 20,
-            "last_updated": "2026-06-21T15:40:21.000Z"
-          },
-          {
-            "name": "Sky Striker",
-            "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-21T15:40:21.000Z"
-          },
-          {
-            "name": "Raging Bull",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:21.000Z"
-          },
-          {
-            "name": "THE JOKER™ Free-Fly Coaster",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:21.000Z"
+            "last_updated": "2026-06-21T17:20:23.000Z"
           },
           {
             "name": "THE DARK KNIGHT™ Coaster",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:21.000Z"
+            "last_updated": "2026-06-21T17:20:23.000Z"
+          },
+          {
+            "name": "Raging Bull",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:23.000Z"
+          },
+          {
+            "name": "X Flight",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:23.000Z"
+          },
+          {
+            "name": "BATMAN™: The Ride",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:23.000Z"
+          },
+          {
+            "name": "Demon",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:23.000Z"
           }
         ],
         "closed_rides": [
           "AQUAMAN™ Splashdown",
           "Logger's Run",
           "River Rocker",
-          "Roaring Rapids",
-          "Scenic Railway County Fair Station",
           "Whizzer",
-          "Little Dipper",
           "American Eagle",
-          "American Eagle Red Side",
-          "Demon",
           "JUSTICE LEAGUE™: Battle for METROPOLIS",
           "Viper"
         ],
@@ -637,7 +632,7 @@
         "park_id": "sfmm",
         "park_name": "Six Flags Magic Mountain",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:56+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -665,7 +660,7 @@
         "source_url": "https://queue-times.com/parks/32/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": false,
-        "data_age_minutes": 1
+        "data_age_minutes": 2
       },
       "thrill_data": {
         "avg_wait_min": 8,
@@ -1043,68 +1038,66 @@
         "park_id": "sfgadv",
         "park_name": "Six Flags Great Adventure",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 42,
-        "open_count": 38,
-        "closed_count": 4,
-        "avg_wait_min": 0,
-        "max_wait_min": 0,
-        "median_wait_min": 0,
+        "open_count": 40,
+        "closed_count": 2,
+        "avg_wait_min": 45.0,
+        "max_wait_min": 45,
+        "median_wait_min": 45,
         "top_waits": [
+          {
+            "name": "THE FLASH™: Vertical Velocity",
+            "is_open": true,
+            "wait_time": 45,
+            "last_updated": "2026-06-21T17:20:19.000Z"
+          },
           {
             "name": "Air Jumbo",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "Buccaneer",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "Carousel",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "Enchanted Teacups",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "Fender Benders",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "Giant Wheel",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           },
           {
             "name": "HARLEY QUINN™ Crazy Train",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
-          },
-          {
-            "name": "Houdini’s Great Escape",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:16.000Z"
+            "last_updated": "2026-06-21T17:20:19.000Z"
           }
         ],
         "closed_rides": [
-          "Roaring Rapids",
           "BATMAN™ The Ride",
-          "Jersey Devil Coaster",
-          "Slingshot"
+          "THE JOKER™"
         ],
         "source_url": "https://queue-times.com/parks/37/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
@@ -1176,34 +1169,77 @@
         "park_id": "sfot",
         "park_name": "Six Flags Over Texas",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 44,
-        "open_count": 0,
-        "closed_count": 44,
-        "avg_wait_min": 0,
-        "max_wait_min": 0,
-        "median_wait_min": 0,
-        "top_waits": [],
+        "open_count": 35,
+        "closed_count": 9,
+        "avg_wait_min": 13.8,
+        "max_wait_min": 30,
+        "median_wait_min": 10,
+        "top_waits": [
+          {
+            "name": "MR. FREEZE",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "Pandemonium",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "BATMAN™ The Ride",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "Runaway Mountain",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "El Aserradero",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "CATWOMAN Whip",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "Runaway Mine Train",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          },
+          {
+            "name": "SUPERMAN: Tower of Power",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:02.000Z"
+          }
+        ],
         "closed_rides": [
-          "BATWING",
-          "Casa Magnetica",
-          "Cloud Bouncer",
-          "El Aserradero",
-          "El Sombrero",
-          "Gunslinger",
-          "La Fiesta de las Tazas",
-          "Mini Mine Train",
           "Oil Derrick",
-          "Pirates of Speelunker Cave",
           "Roaring Rapids",
-          "Rodeo",
-          "Sidewinder",
-          "Silver Star Carousel",
-          "Six Flags Speedway Go Karts"
+          "Daffy Duck Bucket Blasters",
+          "AQUAMAN: Power Wave",
+          "Shock Wave",
+          "Texas SkyScreamer",
+          "THE RIDDLER™'s Revenge",
+          "Sylvester and Tweety Pounce and Bounce",
+          "Six Flags & Texas Railroad"
         ],
         "source_url": "https://queue-times.com/parks/34/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
-        "park_is_open": false,
+        "park_is_open": true,
         "data_age_minutes": 1
       },
       "thrill_data": {
@@ -1569,84 +1605,84 @@
         "park_id": "sfft",
         "park_name": "Six Flags Fiesta Texas",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 57,
-        "open_count": 22,
-        "closed_count": 35,
-        "avg_wait_min": 0,
-        "max_wait_min": 0,
-        "median_wait_min": 0,
+        "open_count": 41,
+        "closed_count": 16,
+        "avg_wait_min": 10.4,
+        "max_wait_min": 15,
+        "median_wait_min": 10,
         "top_waits": [
+          {
+            "name": "The Gully Washer",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:27.000Z"
+          },
+          {
+            "name": "Boomerang Coast To Coaster",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:27.000Z"
+          },
           {
             "name": "CYBORG™: Cyber Revolution",
             "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:27.000Z"
+          },
+          {
+            "name": "Chupacabra",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:27.000Z"
+          },
+          {
+            "name": "Road Runner Express",
+            "is_open": true,
+            "wait_time": 2,
+            "last_updated": "2026-06-21T17:20:27.000Z"
           },
           {
             "name": "Fiesta Texas Railroad",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
+            "last_updated": "2026-06-21T17:20:27.000Z"
           },
           {
             "name": "Fiesta Texas Railroad - Western",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
+            "last_updated": "2026-06-21T17:20:27.000Z"
           },
           {
             "name": "Grand Carousel",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
-          },
-          {
-            "name": "GREEN LANTERN™ Emerald Flight",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
-          },
-          {
-            "name": "Hustler",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
-          },
-          {
-            "name": "POISON IVY™ Toxic Spin",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
-          },
-          {
-            "name": "SHAZAM™: Tower of Eternity",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:26.000Z"
+            "last_updated": "2026-06-21T17:20:27.000Z"
           }
         ],
         "closed_rides": [
           "Bugs' White Water Rapids",
           "Crow’s Nest",
           "DC™ Super-Villains Swing",
-          "METROPOLIS™ Transit Authority",
           "Pirates of the Deep Sea",
+          "SHAZAM™: Tower of Eternity",
           "Spinsanity",
-          "The Gully Washer",
           "Wave Runner",
           "BAT GIRL™: Coaster Chase",
           "Bucking Broncos",
           "Circuit Breaker Grand Prix - Electric Go-Karts",
-          "Bahama Blaster",
           "BATMAN™ The Ride",
           "Dare Devil Dive Flying Machines",
-          "Fireball"
+          "Fireball",
+          "Hurricane Force 5",
+          "Pandemonium"
         ],
         "source_url": "https://queue-times.com/parks/39/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 0
+        "data_age_minutes": 1
       },
       "thrill_data": {
         "avg_wait_min": 9,
@@ -2025,73 +2061,66 @@
         "park_id": "sfog",
         "park_name": "Six Flags Over Georgia",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 42,
-        "open_count": 33,
-        "closed_count": 9,
-        "avg_wait_min": 0,
-        "max_wait_min": 0,
-        "median_wait_min": 0,
+        "open_count": 40,
+        "closed_count": 2,
+        "avg_wait_min": 5.0,
+        "max_wait_min": 5,
+        "median_wait_min": 5,
         "top_waits": [
+          {
+            "name": "Blue Hawk",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:06.000Z"
+          },
+          {
+            "name": "Pandemonium",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:06.000Z"
+          },
           {
             "name": "ACME Trucking Company",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           },
           {
             "name": "CATWOMAN Whip",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           },
           {
             "name": "Daffy Duck Bucket Blasters",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           },
           {
             "name": "DC SUPER-VILLAINS™ Swing",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           },
           {
             "name": "Hanson Cars",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           },
           {
             "name": "HARLEY QUINN™ Wild Whirl",
             "is_open": true,
             "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
-          },
-          {
-            "name": "JUSTICE LEAGUE™: Battle for Metropolis",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
-          },
-          {
-            "name": "Marthasville Railroad Station",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:40:10.000Z"
+            "last_updated": "2026-06-21T17:20:06.000Z"
           }
         ],
         "closed_rides": [
-          "Log Jamboree",
-          "Monster Mansion",
-          "Thunder River",
           "Dare Devil Dive",
-          "Georgia Gold Rusher",
-          "Tsunami Surge",
-          "Bonzai Pipelines",
-          "Calypso Bay Wave Pool",
-          "Paradise Island"
+          "Georgia Gold Rusher"
         ],
         "source_url": "https://queue-times.com/parks/35/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
@@ -2141,78 +2170,75 @@
         "park_id": "sfne",
         "park_name": "Six Flags New England",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 57,
-        "open_count": 48,
-        "closed_count": 9,
-        "avg_wait_min": 8.4,
-        "max_wait_min": 20,
-        "median_wait_min": 10,
+        "open_count": 51,
+        "closed_count": 6,
+        "avg_wait_min": 8.1,
+        "max_wait_min": 51,
+        "median_wait_min": 5,
         "top_waits": [
           {
             "name": "Quantum Accelerator",
             "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "wait_time": 51,
+            "last_updated": "2026-06-21T17:20:31.000Z"
+          },
+          {
+            "name": "Pandemonium",
+            "is_open": true,
+            "wait_time": 30,
+            "last_updated": "2026-06-21T17:20:31.000Z"
+          },
+          {
+            "name": "Scream",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:31.000Z"
           },
           {
             "name": "SUPERMAN™ The Ride",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "last_updated": "2026-06-21T17:20:31.000Z"
           },
           {
-            "name": "BATMAN THE DARK KNIGHT™",
+            "name": "Dino Off Road Adventure",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "last_updated": "2026-06-21T17:20:31.000Z"
           },
           {
-            "name": "GOTHAM CITY GAUNTLET ESCAPE FROM ARKHAM ASYLUM™",
+            "name": "Wicked Cyclone",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "last_updated": "2026-06-21T17:20:31.000Z"
           },
           {
-            "name": "New England SkyScreamer",
+            "name": "1909 Illions Grand Carousel",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:31.000Z"
           },
           {
-            "name": "Pandemonium",
+            "name": "Balloon Race",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
-          },
-          {
-            "name": "Scream",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
-          },
-          {
-            "name": "THE RIDDLER™ Revenge",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:33.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:20:31.000Z"
           }
         ],
         "closed_rides": [
-          "Blizzard River",
           "New England Express",
           "Whirlybirdz",
+          "CYBORG™ Hyper Drive",
           "Flashback",
           "GOTHAM CITY™ Crime Wave",
-          "THE JOKER™ 4D Free Fly Coaster",
-          "Adventure River",
-          "Hurricane Bay",
-          "Swiss Family Toboggan"
+          "Thunderbolt"
         ],
         "source_url": "https://queue-times.com/parks/43/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 0
+        "data_age_minutes": 1
       },
       "thrill_data": {
         "avg_wait_min": 6,
@@ -2288,7 +2314,7 @@
         "park_id": "sfdk",
         "park_name": "Six Flags Discovery Kingdom",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:25+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 37,
         "open_count": 0,
         "closed_count": 37,
@@ -2316,7 +2342,7 @@
         "source_url": "https://queue-times.com/parks/33/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": false,
-        "data_age_minutes": 1
+        "data_age_minutes": 2
       },
       "thrill_data": {
         "avg_wait_min": 9,
@@ -2361,7 +2387,7 @@
         "park_id": "sfa",
         "park_name": "Six Flags America",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 0,
         "open_count": 0,
         "closed_count": 0,
@@ -2416,7 +2442,7 @@
         "park_id": "sfstl",
         "park_name": "Six Flags St. Louis",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:57+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -2444,7 +2470,7 @@
         "source_url": "https://queue-times.com/parks/36/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": false,
-        "data_age_minutes": 5866
+        "data_age_minutes": 5966
       },
       "thrill_data": {
         "thrill_data_name": "Saint Louis (Six Flags)",
@@ -2487,7 +2513,7 @@
         "park_id": "sflr",
         "park_name": "La Ronde",
         "chain": "Six Flags",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 38,
         "open_count": 0,
         "closed_count": 38,
@@ -2515,7 +2541,7 @@
         "source_url": "https://queue-times.com/parks/48/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": false,
-        "data_age_minutes": 5865
+        "data_age_minutes": 5966
       },
       "thrill_data": {
         "avg_wait_min": 22,
@@ -2580,79 +2606,67 @@
         "park_id": "cp",
         "park_name": "Cedar Point",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 69,
-        "open_count": 52,
-        "closed_count": 17,
-        "avg_wait_min": 37.1,
-        "max_wait_min": 120,
-        "median_wait_min": 30,
+        "open_count": 66,
+        "closed_count": 3,
+        "avg_wait_min": 28.0,
+        "max_wait_min": 75,
+        "median_wait_min": 20,
         "top_waits": [
           {
-            "name": "Siren's Curse",
+            "name": "Maverick",
             "is_open": true,
-            "wait_time": 120,
-            "last_updated": "2026-06-21T15:40:12.000Z"
+            "wait_time": 75,
+            "last_updated": "2026-06-21T17:20:21.000Z"
           },
           {
             "name": "Top Thrill 2",
             "is_open": true,
-            "wait_time": 90,
-            "last_updated": "2026-06-21T15:40:12.000Z"
-          },
-          {
-            "name": "Valravn",
-            "is_open": true,
-            "wait_time": 60,
-            "last_updated": "2026-06-21T15:40:12.000Z"
-          },
-          {
-            "name": "Maverick",
-            "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-21T15:40:12.000Z"
-          },
-          {
-            "name": "Millennium Force",
-            "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T15:40:12.000Z"
+            "wait_time": 75,
+            "last_updated": "2026-06-21T17:20:21.000Z"
           },
           {
             "name": "Steel Vengeance",
             "is_open": true,
+            "wait_time": 60,
+            "last_updated": "2026-06-21T17:20:21.000Z"
+          },
+          {
+            "name": "Siren's Curse",
+            "is_open": true,
+            "wait_time": 55,
+            "last_updated": "2026-06-21T17:20:21.000Z"
+          },
+          {
+            "name": "Gemini",
+            "is_open": true,
+            "wait_time": 40,
+            "last_updated": "2026-06-21T17:20:21.000Z"
+          },
+          {
+            "name": "Millennium Force",
+            "is_open": true,
+            "wait_time": 40,
+            "last_updated": "2026-06-21T17:20:21.000Z"
+          },
+          {
+            "name": "Raptor",
+            "is_open": true,
             "wait_time": 30,
-            "last_updated": "2026-06-21T15:40:12.000Z"
+            "last_updated": "2026-06-21T17:20:21.000Z"
           },
           {
-            "name": "GateKeeper",
+            "name": "Valravn",
             "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-21T15:40:12.000Z"
-          },
-          {
-            "name": "Blue Streak",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:12.000Z"
+            "wait_time": 30,
+            "last_updated": "2026-06-21T17:20:21.000Z"
           }
         ],
         "closed_rides": [
-          "Cedar Creek Mine Ride",
-          "Corkscrew",
-          "Gemini",
-          "Raptor",
           "4 x 4s",
-          "Flying Ace Balloon Race",
-          "PEANUTS™ Road Rally",
-          "Snoopys Deep Sea Divers",
-          "Snoopys Express Railroad",
-          "Joe Cool’s Dodgem School",
-          "Kite-Eating Tree",
-          "Snoopys Space Race",
-          "Woodstocks Airmail",
-          "Woodstocks Whirlybirds",
-          "MaXair"
+          "MaXair",
+          "WindSeeker"
         ],
         "source_url": "https://queue-times.com/parks/50/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
@@ -3030,76 +3044,72 @@
         "park_id": "ki",
         "park_name": "Kings Island",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 71,
-        "open_count": 64,
-        "closed_count": 7,
-        "avg_wait_min": 11.9,
-        "max_wait_min": 30,
-        "median_wait_min": 10,
+        "open_count": 68,
+        "closed_count": 3,
+        "avg_wait_min": 14.7,
+        "max_wait_min": 45,
+        "median_wait_min": 15,
         "top_waits": [
           {
             "name": "Flight Of Fear",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T15:36:09.000Z"
+            "wait_time": 45,
+            "last_updated": "2026-06-21T17:21:10.000Z"
+          },
+          {
+            "name": "Invertigo",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T17:21:10.000Z"
+          },
+          {
+            "name": "Queen City Stunt Coaster",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T17:21:10.000Z"
+          },
+          {
+            "name": "White Water Canyon",
+            "is_open": true,
+            "wait_time": 25,
+            "last_updated": "2026-06-21T17:21:10.000Z"
           },
           {
             "name": "Phantom Theater: Opening Nightmare",
             "is_open": true,
-            "wait_time": 25,
-            "last_updated": "2026-06-21T15:36:09.000Z"
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:21:10.000Z"
+          },
+          {
+            "name": "Charlie Brown's Rushing River Log Ride",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:21:10.000Z"
           },
           {
             "name": "Banshee",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:36:09.000Z"
+            "last_updated": "2026-06-21T17:21:10.000Z"
           },
           {
-            "name": "Mystic Timbers",
+            "name": "The Bat",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:36:09.000Z"
-          },
-          {
-            "name": "Kings Mills Antique Autos",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:36:09.000Z"
-          },
-          {
-            "name": "Snoopy's Soap Box Racers",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:36:09.000Z"
-          },
-          {
-            "name": "Franklin's Flyers",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:36:09.000Z"
-          },
-          {
-            "name": "Orion",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-21T15:36:09.000Z"
+            "last_updated": "2026-06-21T17:21:10.000Z"
           }
         ],
         "closed_rides": [
-          "The Racer Blue",
-          "Congo Falls",
+          "Mystic Timbers",
           "Viking Fury",
-          "White Water Canyon",
-          "Charlie Brown's Rushing River Log Ride",
-          "Pineapple Pipeline",
-          "Tropical Twister"
+          "Mondo Monsoon"
         ],
         "source_url": "https://queue-times.com/parks/60/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 5
+        "data_age_minutes": 0
       },
       "thrill_data": {
         "avg_wait_min": 13,
@@ -3476,11 +3486,11 @@
         "park_id": "cw",
         "park_name": "Canada's Wonderland",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 80,
-        "open_count": 73,
-        "closed_count": 7,
-        "avg_wait_min": 21.1,
+        "open_count": 76,
+        "closed_count": 4,
+        "avg_wait_min": 22.8,
         "max_wait_min": 90,
         "median_wait_min": 15,
         "top_waits": [
@@ -3488,64 +3498,61 @@
             "name": "AlpenFury",
             "is_open": true,
             "wait_time": 90,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
           },
           {
             "name": "Leviathan",
             "is_open": true,
             "wait_time": 20,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
           },
           {
             "name": "Ghoster Coaster",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
           },
           {
             "name": "Mighty Canadian Minebuster",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
+          },
+          {
+            "name": "Yukon Striker",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:47.000Z"
+          },
+          {
+            "name": "Boo Blasters on Boo Hill",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:47.000Z"
           },
           {
             "name": "WindSeeker",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
           },
           {
-            "name": "Backlot Stunt Coaster",
+            "name": "Behemoth",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:35.000Z"
-          },
-          {
-            "name": "Yukon Striker",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:35.000Z"
-          },
-          {
-            "name": "Psyclone",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:35.000Z"
+            "last_updated": "2026-06-21T17:20:47.000Z"
           }
         ],
         "closed_rides": [
-          "Krachenwagen",
-          "Skyhawk",
+          "Backlot Stunt Coaster",
+          "Spinovator",
           "Sledge Hammer",
-          "Lazy River",
-          "Moosehorn Falls",
-          "Mountain Bay Cliffs",
-          "Typhoon"
+          "Tundra Twister"
         ],
         "source_url": "https://queue-times.com/parks/58/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 0
+        "data_age_minutes": 1
       },
       "thrill_data": {
         "avg_wait_min": 14,
@@ -3576,6 +3583,249 @@
       ],
       "reddit_posts": [
         {
+          "id": "1kq32b3",
+          "title": "Can i carry/use my bag and sweater to canadas wonderland?",
+          "body": "My sis went to canadas wonderland last year and bought me a snoopy sweater and woodstock backpack, we are going to wonderland tomorrow, can i wear them to wonderland? ",
+          "text": "Can i carry/use my bag and sweater to canadas wonderland? My sis went to canadas wonderland last year and bought me a snoopy sweater and woodstock backpack, we are going to wonderland tomorrow, can i wear them to wonderland? ",
+          "author": "Mayor_Hikari",
+          "score": 1,
+          "num_comments": 3,
+          "created_utc": "2025-05-19T04:28:38+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kq32b3/can_i_carryuse_my_bag_and_sweater_to_canadas/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kq1mz5",
+          "title": "Single Rider",
+          "body": "Hey there,\n\nI haven’t been to Canada’s wonderland in awhile and I’m looking to do a couple hours tomorrow. I’m a single rider with just a season pass I’m just wondering if there are actual single rider lanes or should I just inquire with staff when I’m there? Thanks in advance :) ",
+          "text": "Single Rider Hey there,\n\nI haven’t been to Canada’s wonderland in awhile and I’m looking to do a couple hours tomorrow. I’m a single rider with just a season pass I’m just wondering if there are actual single rider lanes or should I just inquire with staff when I’m there? Thanks in advance :) ",
+          "author": "SportyGirl167",
+          "score": 8,
+          "num_comments": 9,
+          "created_utc": "2025-05-19T03:06:05+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kq1mz5/single_rider/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "long_waits",
+            "pricing_pass"
+          ]
+        },
+        {
+          "id": "1kq0uum",
+          "title": "Does the price actually go up on the site?",
+          "body": "I see that there’s less than two hours left on the countdown on the site and I was wondering if the price actually does go up or not? I’m just genuinely curious.. can’t find any info on this.",
+          "text": "Does the price actually go up on the site? I see that there’s less than two hours left on the countdown on the site and I was wondering if the price actually does go up or not? I’m just genuinely curious.. can’t find any info on this.",
+          "author": "axel_lotle",
+          "score": 1,
+          "num_comments": 4,
+          "created_utc": "2025-05-19T02:22:38+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kq0uum/does_the_price_actually_go_up_on_the_site/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "long_waits",
+            "pricing_pass"
+          ]
+        },
+        {
+          "id": "1kq0jeq",
+          "title": "Aggressive geese in Kidzville",
+          "body": "The title says it all. A Canada goose kept approaching boats on Swan Lake (legit the gentlest ride in the park) and practically leapt/flew into one little girl’s lap. Her dad screamed at it and it backed down. \n\nAnother goose was intimidating people by the Ghoster Coaster and when I was leaving the park, I saw a goose hovering over people eating in a grassy area. \n\nAnyone else notice this? The geese have not been as aggressive in previous year! ",
+          "text": "Aggressive geese in Kidzville The title says it all. A Canada goose kept approaching boats on Swan Lake (legit the gentlest ride in the park) and practically leapt/flew into one little girl’s lap. Her dad screamed at it and it backed down. \n\nAnother goose was intimidating people by the Ghoster Coaster and when I was leaving the park, I saw a goose hovering over people eating in a grassy area. \n\nAnyone else notice this? The geese have not been as aggressive in previous year! ",
+          "author": "freedgluten",
+          "score": 40,
+          "num_comments": 25,
+          "created_utc": "2025-05-19T02:06:10+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kq0jeq/aggressive_geese_in_kidzville/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kpz8ca",
+          "title": "Announcement",
+          "body": "Anyone at the park right now? A loud announcement went off some minutes go and then there was another one. Does anyone know what they said?",
+          "text": "Announcement Anyone at the park right now? A loud announcement went off some minutes go and then there was another one. Does anyone know what they said?",
+          "author": "someoneidkhmm",
+          "score": 2,
+          "num_comments": 3,
+          "created_utc": "2025-05-19T00:55:40+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpz8ca/announcement/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kpvhh8",
+          "title": "Can I wear a fanny pack, while on the rides?",
+          "body": "My son and I are going Tuesday and I haven't been to the  park in a couple a decades. Would like to wear a fanny pack to hold our phones and wallet, are we allowed to safely wear a fanny pack on the rides?",
+          "text": "Can I wear a fanny pack, while on the rides? My son and I are going Tuesday and I haven't been to the  park in a couple a decades. Would like to wear a fanny pack to hold our phones and wallet, are we allowed to safely wear a fanny pack on the rides?",
+          "author": "neurodivergent_cat25",
+          "score": 12,
+          "num_comments": 12,
+          "created_utc": "2025-05-18T21:51:22+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpvhh8/can_i_wear_a_fanny_pack_while_on_the_rides/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kpv94q",
+          "title": "Wonderland",
+          "body": "Is it worth going to Canada’s wonderland at 6pm on a cloudy sunday?",
+          "text": "Wonderland Is it worth going to Canada’s wonderland at 6pm on a cloudy sunday?",
+          "author": "Lazy_Wolverine_5478",
+          "score": 0,
+          "num_comments": 3,
+          "created_utc": "2025-05-18T21:41:02+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpv94q/wonderland/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kpsany",
+          "title": "Has anyone used the Thrill Seeker Bundler? Confused about what it includes",
+          "body": "Hey everyone,  \nI came across the *Thrill Seeker Bundler* on the park’s website (for $90) and was wondering if anyone here has actually used it. I'm a bit confused about what exactly it includes.\n\nThe site says it's “General Admission with Fast Lane Plus” for only $90, which seems like a really good deal — maybe too good to be true? Usually, just a General Admission + Fast Lane Plus ticket costs around $150.\n\nI emailed customer service to confirm, but they just kept repeating that it’s General Admission with Fast Lane Plus only for the selected day for $90, without clarifying anything further.\n\nSo here are my questions:\n\n* Does it give unlimited access to all the major coasters, including the big three?\n* Are there any hidden limitations I should be aware of?\n\nIf anyone has purchased and used the Thrill Seeker Bundler recently, I’d really appreciate your insight before I book!\n\nThanks in advance!",
+          "text": "Has anyone used the Thrill Seeker Bundler? Confused about what it includes Hey everyone,  \nI came across the *Thrill Seeker Bundler* on the park’s website (for $90) and was wondering if anyone here has actually used it. I'm a bit confused about what exactly it includes.\n\nThe site says it's “General Admission with Fast Lane Plus” for only $90, which seems like a really good deal — maybe too good to be true? Usually, just a General Admission + Fast Lane Plus ticket costs around $150.\n\nI emailed customer service to confirm, but they just kept repeating that it’s General Admission with Fast Lane Plus only for the selected day for $90, without clarifying anything further.\n\nSo here are my questions:\n\n* Does it give unlimited access to all the major coasters, including the big three?\n* Are there any hidden limitations I should be aware of?\n\nIf anyone has purchased and used the Thrill Seeker Bundler recently, I’d really appreciate your insight before I book!\n\nThanks in advance!",
+          "author": "FinancialSpray5732",
+          "score": 2,
+          "num_comments": 8,
+          "created_utc": "2025-05-18T19:32:06+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpsany/has_anyone_used_the_thrill_seeker_bundler/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "food_service"
+          ]
+        },
+        {
+          "id": "1kps8rn",
+          "title": "Should I bring a backpack with me?",
+          "body": "I heard some rides don't have a storage box. What do you do in that case?",
+          "text": "Should I bring a backpack with me? I heard some rides don't have a storage box. What do you do in that case?",
+          "author": "Prestigious-Point594",
+          "score": 2,
+          "num_comments": 12,
+          "created_utc": "2025-05-18T19:29:53+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kps8rn/should_i_bring_a_backpack_with_me/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kprh7x",
+          "title": "Grande World Eatery",
+          "body": "Does the Grande World Eatery or anywhere for that matter have Nachoes again this year ?  Preferably part of meal plan but girlfriend missed out on getting Nachoes last year and wondering if they have them again this year.  \n\n/. What is Grande World Eatery serving today ? (Meal plan) Anyone over there?\n\n\nTIA!!!\n",
+          "text": "Grande World Eatery Does the Grande World Eatery or anywhere for that matter have Nachoes again this year ?  Preferably part of meal plan but girlfriend missed out on getting Nachoes last year and wondering if they have them again this year.  \n\n/. What is Grande World Eatery serving today ? (Meal plan) Anyone over there?\n\n\nTIA!!!\n",
+          "author": "Intrepid_Anxiety_100",
+          "score": 5,
+          "num_comments": 11,
+          "created_utc": "2025-05-18T18:56:57+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kprh7x/grande_world_eatery/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kposzd",
+          "title": "Season Pass Price after May 20th",
+          "body": "I want upgrade some silver passes to gold, which has to be done at the park. Website say Season passes prices increase after may 20th (silver is currently $89 and gold is $115). I don't think I'll be able to get there to do the upgrade this weekend. Does anyone know how much they increase by?",
+          "text": "Season Pass Price after May 20th I want upgrade some silver passes to gold, which has to be done at the park. Website say Season passes prices increase after may 20th (silver is currently $89 and gold is $115). I don't think I'll be able to get there to do the upgrade this weekend. Does anyone know how much they increase by?",
+          "author": "fudgelie",
+          "score": 3,
+          "num_comments": 6,
+          "created_utc": "2025-05-18T17:03:56+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kposzd/season_pass_price_after_may_20th/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "pricing_pass"
+          ]
+        },
+        {
+          "id": "1kpk315",
+          "title": "Leviathan at 9:30.",
+          "body": "Getting busy",
+          "text": "Leviathan at 9:30. Getting busy",
+          "author": "jackal99",
+          "score": 238,
+          "num_comments": 59,
+          "created_utc": "2025-05-18T13:33:25+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpk315/leviathan_at_930/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "crowding"
+          ]
+        },
+        {
+          "id": "1kpjp9z",
+          "title": "Sunday May 18",
+          "body": "Here at rope drop. Is it busy? Not at all. Is it cold? Yes. Bring a hoodie. ",
+          "text": "Sunday May 18 Here at rope drop. Is it busy? Not at all. Is it cold? Yes. Bring a hoodie. ",
+          "author": "jackal99",
+          "score": 5,
+          "num_comments": 12,
+          "created_utc": "2025-05-18T13:14:32+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpjp9z/sunday_may_18/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "crowding"
+          ]
+        },
+        {
+          "id": "1kpbbze",
+          "title": "Summer price of season pass",
+          "body": "I can't find this anywhere; how much do season passes usually cost in the summer? The website says it's currently $89 but the price increases on May 20. But im pretty sure it was $89 before so its not really a sale? Is it more expensive in the summer? Thanks!",
+          "text": "Summer price of season pass I can't find this anywhere; how much do season passes usually cost in the summer? The website says it's currently $89 but the price increases on May 20. But im pretty sure it was $89 before so its not really a sale? Is it more expensive in the summer? Thanks!",
+          "author": "Lost_Employment4518",
+          "score": 0,
+          "num_comments": 2,
+          "created_utc": "2025-05-18T04:08:05+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kpbbze/summer_price_of_season_pass/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "pricing_pass"
+          ]
+        },
+        {
+          "id": "1kp93zz",
+          "title": "Victoria Day long weekend",
+          "body": "Hey all. Michigander here. We planned on going to the park tomorrow (Sunday) but had no idea about Victoria Day. How busy should we expect it to be? Debating if we purchase fast lane passes. ",
+          "text": "Victoria Day long weekend Hey all. Michigander here. We planned on going to the park tomorrow (Sunday) but had no idea about Victoria Day. How busy should we expect it to be? Debating if we purchase fast lane passes. ",
+          "author": "Fazz_88",
+          "score": 3,
+          "num_comments": 11,
+          "created_utc": "2025-05-18T02:00:02+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kp93zz/victoria_day_long_weekend/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "crowding"
+          ]
+        },
+        {
           "id": "1kp42jh",
           "title": "1 or 2 Days?",
           "body": "Planning a trip towards the end of June. I have an all parks pass from Canada's Wonderland. I'm debating between spending 2 days at King's Island or just doing 1 day and then 1 day at Cedar Point. I've been to CP like 15 years ago but never been to KI. It will be a Thursday-Friday, so hopefully the parks won't be too busy. Can I reasonably ride all the roller coasters in 1 day or is it worth skipping Cedar Point to spend the extra day here?",
@@ -3591,11 +3841,77 @@
           "kpis": [
             "crowding"
           ]
+        },
+        {
+          "id": "1koz2oe",
+          "title": "Looking for a buddy to visit Canada’s Wonderland!",
+          "body": "Hey everyone!\nI’m a 29-year-old guy originally from Bangladesh, and I’ve been living in Toronto for the past 3 years. I’m friendly, fun-loving.\n\nI’ve been wanting to visit Canada’s Wonderland, but honestly, going alone kinda feels boring. I’m planning to go on a weekday (less crowded!) and get there around 10 AM to make the most of the day and avoid the rush.\n\nAnyone wants to join? ",
+          "text": "Looking for a buddy to visit Canada’s Wonderland! Hey everyone!\nI’m a 29-year-old guy originally from Bangladesh, and I’ve been living in Toronto for the past 3 years. I’m friendly, fun-loving.\n\nI’ve been wanting to visit Canada’s Wonderland, but honestly, going alone kinda feels boring. I’m planning to go on a weekday (less crowded!) and get there around 10 AM to make the most of the day and avoid the rush.\n\nAnyone wants to join? ",
+          "author": "Excellent-Cycle8950",
+          "score": 16,
+          "num_comments": 24,
+          "created_utc": "2025-05-17T17:59:06+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1koz2oe/looking_for_a_buddy_to_visit_canadas_wonderland/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": [
+            "crowding"
+          ]
+        },
+        {
+          "id": "1kow79h",
+          "title": "Question About Daily Pass Payment Online",
+          "body": "Hello,\n\nIt’s my first time going to Canada’s Wonderland and I am quite confused about the payment options to purchase your ticket. The only option I had was to insert my Credit or Klarna. \n\nI was wondering if anybody here had any terrible experiences with using Klarna as a way to purchase the tickets. I know it’s a dumb question, sorry.",
+          "text": "Question About Daily Pass Payment Online Hello,\n\nIt’s my first time going to Canada’s Wonderland and I am quite confused about the payment options to purchase your ticket. The only option I had was to insert my Credit or Klarna. \n\nI was wondering if anybody here had any terrible experiences with using Klarna as a way to purchase the tickets. I know it’s a dumb question, sorry.",
+          "author": "Helpful-Signature623",
+          "score": 1,
+          "num_comments": 0,
+          "created_utc": "2025-05-17T15:52:46+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kow79h/question_about_daily_pass_payment_online/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kovsko",
+          "title": "First Visit of the Season - Which of the Big 3?",
+          "body": "Hello all! My partner and I are headed to wonderland tomorrow (here's hoping it's not insane but we're fully ready for that). We're aiming to be there right for park open so he wants me to pick one of the big 3 as hopefully lines won't be too bad.  I've always steered clear of the big ones though.  I love vortex and dragons fyre but the concept of going from a 90 ft to a 250 ft drops freaks me out a bit. (I've got a panic attack disorder so adrenaline is frequently confused by my brain as a panic attack lol). Any advice on how to just go for one would be appreciated. Cheers! ",
+          "text": "First Visit of the Season - Which of the Big 3? Hello all! My partner and I are headed to wonderland tomorrow (here's hoping it's not insane but we're fully ready for that). We're aiming to be there right for park open so he wants me to pick one of the big 3 as hopefully lines won't be too bad.  I've always steered clear of the big ones though.  I love vortex and dragons fyre but the concept of going from a 90 ft to a 250 ft drops freaks me out a bit. (I've got a panic attack disorder so adrenaline is frequently confused by my brain as a panic attack lol). Any advice on how to just go for one would be appreciated. Cheers! ",
+          "author": "EmJ318",
+          "score": 3,
+          "num_comments": 17,
+          "created_utc": "2025-05-17T15:34:46+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kovsko/first_visit_of_the_season_which_of_the_big_3/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
+        },
+        {
+          "id": "1kovlup",
+          "title": "Plus size friendly rides?",
+          "body": "Hey y'all\n\nI'm just wondering what kinds of rides are plus size friendly? (I know I can't go on any of the big coasters) it felt like I was walking around for an hour to find a ride i could go on last time I went. My goal this year is to fit on the big coasters by the end of summer. ",
+          "text": "Plus size friendly rides? Hey y'all\n\nI'm just wondering what kinds of rides are plus size friendly? (I know I can't go on any of the big coasters) it felt like I was walking around for an hour to find a ride i could go on last time I went. My goal this year is to fit on the big coasters by the end of summer. ",
+          "author": "Psychological_Swan58",
+          "score": 2,
+          "num_comments": 7,
+          "created_utc": "2025-05-17T15:26:44+00:00",
+          "permalink": "https://www.reddit.com/r/CanadasWonderland/comments/1kovlup/plus_size_friendly_rides/",
+          "subreddit": "CanadasWonderland",
+          "source": "pullpush-archive",
+          "park_id": "cw",
+          "kpis": []
         }
       ],
-      "reddit_count": 1,
+      "reddit_count": 26,
       "kpi_counts": {
-        "crowding": 1
+        "long_waits": 2,
+        "pricing_pass": 6,
+        "food_service": 3,
+        "crowding": 6,
+        "ride_closure": 1
       },
       "sources": {
         "queue_times": "https://queue-times.com/parks/58/queue_times.json",
@@ -3614,83 +3930,84 @@
         "park_id": "cga",
         "park_name": "California's Great America",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 54,
-        "open_count": 40,
-        "closed_count": 14,
-        "avg_wait_min": 31.5,
-        "max_wait_min": 75,
-        "median_wait_min": 20,
+        "open_count": 34,
+        "closed_count": 20,
+        "avg_wait_min": 5.5,
+        "max_wait_min": 10,
+        "median_wait_min": 10,
         "top_waits": [
           {
-            "name": "Gold Striker",
+            "name": "RailBlazer",
             "is_open": true,
-            "wait_time": 75,
-            "last_updated": "2026-06-21T04:55:57.000Z"
-          },
-          {
-            "name": "Tiki Twirl",
-            "is_open": true,
-            "wait_time": 75,
-            "last_updated": "2026-06-21T04:55:57.000Z"
-          },
-          {
-            "name": "Barney Oldfield's Redwood Rally",
-            "is_open": true,
-            "wait_time": 60,
-            "last_updated": "2026-06-21T04:55:57.000Z"
-          },
-          {
-            "name": "Flight Deck",
-            "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-21T04:55:57.000Z"
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:30.000Z"
           },
           {
             "name": "Grizzly",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T04:55:57.000Z"
-          },
-          {
-            "name": "RailBlazer",
-            "is_open": true,
-            "wait_time": 20,
-            "last_updated": "2026-06-21T04:55:57.000Z"
-          },
-          {
-            "name": "Flying Eagles",
-            "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T04:55:57.000Z"
+            "wait_time": 1,
+            "last_updated": "2026-06-21T17:20:30.000Z"
           },
           {
             "name": "Demon",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T04:55:57.000Z"
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
+          },
+          {
+            "name": "Flight Deck",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
+          },
+          {
+            "name": "Patriot",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
+          },
+          {
+            "name": "Psycho Mouse",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
+          },
+          {
+            "name": "Barney Oldfield's Redwood Rally",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
+          },
+          {
+            "name": "Berserker",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:20:30.000Z"
           }
         ],
         "closed_rides": [
+          "Gold Striker",
+          "Delta Flyer (Skyride)",
+          "Eagles Flight (Skyride)",
           "Rip Roaring Rapids",
-          "Character Carousel",
-          "Joe Cools Dodgem School",
+          "Thunder Raceway",
+          "Woodstock Express",
+          "Sally's Love Buggies",
+          "The Pumpkin Patch",
+          "Xtreme Skyflyer",
           "Barracuda",
           "Breakers Bay",
           "Coastal Cruz",
           "Feeding Frenzy",
           "Mission Falls",
-          "NorCall Wipeout",
-          "Otter Trotters",
-          "Pups Pier",
-          "Rushin River",
-          "Shark Reef Plunge",
-          "Tide Pool Slides"
+          "NorCall Wipeout"
         ],
         "source_url": "https://queue-times.com/parks/57/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
-        "park_is_open": false,
-        "data_age_minutes": 645
+        "park_is_open": true,
+        "data_age_minutes": 1
       },
       "thrill_data": {
         "avg_wait_min": 24,
@@ -3739,74 +4056,73 @@
         "park_id": "car",
         "park_name": "Carowinds",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:26+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 59,
-        "open_count": 54,
-        "closed_count": 5,
-        "avg_wait_min": 6.6,
-        "max_wait_min": 30,
+        "open_count": 55,
+        "closed_count": 4,
+        "avg_wait_min": 7.2,
+        "max_wait_min": 20,
         "median_wait_min": 5,
         "top_waits": [
           {
-            "name": "Fury 325",
+            "name": "Copperhead Strike",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T15:40:52.000Z"
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:20:57.000Z"
+          },
+          {
+            "name": "Snoopy's Racing Railway",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:20:57.000Z"
+          },
+          {
+            "name": "Ricochet",
+            "is_open": true,
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:20:57.000Z"
           },
           {
             "name": "The Flying Cobras",
             "is_open": true,
             "wait_time": 15,
-            "last_updated": "2026-06-21T15:40:52.000Z"
+            "last_updated": "2026-06-21T17:20:57.000Z"
           },
           {
-            "name": "Ricochet",
+            "name": "Carolina Goldrusher",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:52.000Z"
+            "last_updated": "2026-06-21T17:20:57.000Z"
+          },
+          {
+            "name": "Fury 325",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:57.000Z"
           },
           {
             "name": "Flying Ace Balloon Race",
             "is_open": true,
             "wait_time": 10,
-            "last_updated": "2026-06-21T15:40:52.000Z"
-          },
-          {
-            "name": "Do-Si-Do",
-            "is_open": true,
-            "wait_time": 6,
-            "last_updated": "2026-06-21T15:40:52.000Z"
-          },
-          {
-            "name": "Kaleidoscope",
-            "is_open": true,
-            "wait_time": 6,
-            "last_updated": "2026-06-21T15:40:52.000Z"
-          },
-          {
-            "name": "Zephyr",
-            "is_open": true,
-            "wait_time": 6,
-            "last_updated": "2026-06-21T15:40:52.000Z"
+            "last_updated": "2026-06-21T17:20:57.000Z"
           },
           {
             "name": "PEANUTS Pirates",
             "is_open": true,
-            "wait_time": 6,
-            "last_updated": "2026-06-21T15:40:52.000Z"
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:20:57.000Z"
           }
         ],
         "closed_rides": [
           "Afterburn",
-          "Carolina Cyclone",
-          "Snoopy's Racing Railway",
           "Windstar",
-          "Gear Spin"
+          "Gear Spin",
+          "The Airwalker"
         ],
         "source_url": "https://queue-times.com/parks/59/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 0
+        "data_age_minutes": 1
       },
       "thrill_data": {
         "avg_wait_min": 5,
@@ -4175,83 +4491,70 @@
         "park_id": "kd",
         "park_name": "Kings Dominion",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:27+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 56,
-        "open_count": 42,
-        "closed_count": 14,
-        "avg_wait_min": 4.0,
-        "max_wait_min": 15,
-        "median_wait_min": 3,
+        "open_count": 55,
+        "closed_count": 1,
+        "avg_wait_min": 6.6,
+        "max_wait_min": 25,
+        "median_wait_min": 5,
         "top_waits": [
           {
-            "name": "Dominator",
+            "name": "Rapterra",
             "is_open": true,
-            "wait_time": 15,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Flying Eagles",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Backlot Stunt Coaster",
-            "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Grizzly",
-            "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Tumbili",
-            "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Bad Apple",
-            "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
-          },
-          {
-            "name": "Carousel",
-            "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
+            "wait_time": 25,
+            "last_updated": "2026-06-21T17:16:39.000Z"
           },
           {
             "name": "Reptilian",
             "is_open": true,
-            "wait_time": 3,
-            "last_updated": "2026-06-21T15:36:38.000Z"
+            "wait_time": 25,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Blue Ridge Tollway",
+            "is_open": true,
+            "wait_time": 10,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Dominator",
+            "is_open": true,
+            "wait_time": 7,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Carousel",
+            "is_open": true,
+            "wait_time": 6,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Wave Swinger",
+            "is_open": true,
+            "wait_time": 6,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Delirium",
+            "is_open": true,
+            "wait_time": 6,
+            "last_updated": "2026-06-21T17:16:39.000Z"
+          },
+          {
+            "name": "Apple Zapple",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:16:39.000Z"
           }
         ],
         "closed_rides": [
-          "Racer 75 - South",
-          "Woodstock Whirlybirds",
-          "Baja Bends",
-          "Hurricane Heights Body Slides",
-          "Hurricane Heights Tube Slides",
-          "Lazy Rider",
-          "Lighthouse Landing",
-          "Lil' Barefoot Beach",
-          "Pipeline Peak Body Slides",
-          "Pipeline Peak Tube Slides",
-          "Sand Dune Lagoon",
-          "Splash Island",
-          "Tidal Wave Bay",
-          "Zoom Flume"
+          "Racer 75 - South"
         ],
         "source_url": "https://queue-times.com/parks/62/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 4
+        "data_age_minutes": 5
       },
       "thrill_data": {
         "avg_wait_min": 4,
@@ -4337,77 +4640,71 @@
         "park_id": "dp",
         "park_name": "Dorney Park",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:27+00:00",
+        "ts": "2026-06-21T17:21:58+00:00",
         "ride_count": 60,
-        "open_count": 52,
-        "closed_count": 8,
-        "avg_wait_min": 5.5,
-        "max_wait_min": 10,
+        "open_count": 58,
+        "closed_count": 2,
+        "avg_wait_min": 15.2,
+        "max_wait_min": 50,
         "median_wait_min": 5,
         "top_waits": [
           {
+            "name": "Wild Mouse",
+            "is_open": true,
+            "wait_time": 50,
+            "last_updated": "2026-06-21T17:16:56.000Z"
+          },
+          {
+            "name": "Thunder Canyon",
+            "is_open": true,
+            "wait_time": 35,
+            "last_updated": "2026-06-21T17:16:56.000Z"
+          },
+          {
+            "name": "Thunder Creek Mountain",
+            "is_open": true,
+            "wait_time": 20,
+            "last_updated": "2026-06-21T17:16:56.000Z"
+          },
+          {
+            "name": "Snoopy's Rocket Express",
+            "is_open": true,
+            "wait_time": 7,
+            "last_updated": "2026-06-21T17:16:56.000Z"
+          },
+          {
             "name": "Hydra",
             "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:36:57.000Z"
-          },
-          {
-            "name": "Steel Force",
-            "is_open": true,
-            "wait_time": 10,
-            "last_updated": "2026-06-21T15:36:57.000Z"
-          },
-          {
-            "name": "Possessed",
-            "is_open": true,
             "wait_time": 5,
-            "last_updated": "2026-06-21T15:36:57.000Z"
-          },
-          {
-            "name": "Thunderhawk",
-            "is_open": true,
-            "wait_time": 5,
-            "last_updated": "2026-06-21T15:36:57.000Z"
+            "last_updated": "2026-06-21T17:16:56.000Z"
           },
           {
             "name": "Iron Menace",
             "is_open": true,
-            "wait_time": 2,
-            "last_updated": "2026-06-21T15:36:57.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:16:56.000Z"
           },
           {
             "name": "Talon",
             "is_open": true,
-            "wait_time": 1,
-            "last_updated": "2026-06-21T15:36:57.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:16:56.000Z"
           },
           {
-            "name": "Wild Mouse",
+            "name": "Dominator Green",
             "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:36:57.000Z"
-          },
-          {
-            "name": "Woodstock Express",
-            "is_open": true,
-            "wait_time": 0,
-            "last_updated": "2026-06-21T15:36:57.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:16:56.000Z"
           }
         ],
         "closed_rides": [
-          "Cedar Creek Cannonball",
           "Ferris Wheel",
-          "Zephyr",
-          "Demon Drop",
-          "Enterprise",
-          "Thunder Canyon",
-          "Thunder Creek Mountain",
-          "White Water Landing"
+          "Woodstock Whirlybirds"
         ],
         "source_url": "https://queue-times.com/parks/69/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
         "park_is_open": true,
-        "data_age_minutes": 4
+        "data_age_minutes": 5
       },
       "thrill_data": {
         "avg_wait_min": 6,
@@ -4456,7 +4753,7 @@
         "park_id": "vf",
         "park_name": "Valleyfair",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:27+00:00",
+        "ts": "2026-06-21T17:21:59+00:00",
         "ride_count": 39,
         "open_count": 0,
         "closed_count": 39,
@@ -4527,7 +4824,7 @@
         "park_id": "wof",
         "park_name": "Worlds of Fun",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:27+00:00",
+        "ts": "2026-06-21T17:21:59+00:00",
         "ride_count": 44,
         "open_count": 0,
         "closed_count": 44,
@@ -4598,83 +4895,73 @@
         "park_id": "kbf",
         "park_name": "Knott's Berry Farm",
         "chain": "Cedar Fair",
-        "ts": "2026-06-21T15:41:27+00:00",
+        "ts": "2026-06-21T17:21:59+00:00",
         "ride_count": 46,
-        "open_count": 32,
-        "closed_count": 14,
-        "avg_wait_min": 38.7,
-        "max_wait_min": 180,
-        "median_wait_min": 30,
+        "open_count": 42,
+        "closed_count": 4,
+        "avg_wait_min": 18.0,
+        "max_wait_min": 60,
+        "median_wait_min": 5,
         "top_waits": [
           {
             "name": "GhostRider",
             "is_open": true,
-            "wait_time": 180,
-            "last_updated": "2026-06-21T05:56:21.000Z"
-          },
-          {
-            "name": "Xcelerator The Ride",
-            "is_open": true,
             "wait_time": 60,
-            "last_updated": "2026-06-21T05:56:21.000Z"
+            "last_updated": "2026-06-21T17:21:26.000Z"
           },
           {
             "name": "Timber Mountain Log Ride",
             "is_open": true,
-            "wait_time": 60,
-            "last_updated": "2026-06-21T05:56:21.000Z"
-          },
-          {
-            "name": "Coast Rider",
-            "is_open": true,
-            "wait_time": 45,
-            "last_updated": "2026-06-21T05:56:21.000Z"
-          },
-          {
-            "name": "Knott's Bear-y Tales: Return to the Fair",
-            "is_open": true,
-            "wait_time": 40,
-            "last_updated": "2026-06-21T05:56:21.000Z"
+            "wait_time": 15,
+            "last_updated": "2026-06-21T17:21:26.000Z"
           },
           {
             "name": "HangTime",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T05:56:21.000Z"
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:21:26.000Z"
+          },
+          {
+            "name": "Pony Express",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:21:26.000Z"
+          },
+          {
+            "name": "Supreme Scream",
+            "is_open": true,
+            "wait_time": 5,
+            "last_updated": "2026-06-21T17:21:26.000Z"
+          },
+          {
+            "name": "Coast Rider",
+            "is_open": true,
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:21:26.000Z"
           },
           {
             "name": "Jaguar!",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T05:56:21.000Z"
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:21:26.000Z"
           },
           {
             "name": "Sierra Sidewinder",
             "is_open": true,
-            "wait_time": 30,
-            "last_updated": "2026-06-21T05:56:21.000Z"
+            "wait_time": 0,
+            "last_updated": "2026-06-21T17:21:26.000Z"
           }
         ],
         "closed_rides": [
           "Silver Bullet",
+          "Xcelerator The Ride",
           "Butterfield Stagecoach",
-          "Linus Launcher",
-          "Aqua Launch",
-          "Aqua Tube",
-          "Banzai Falls",
-          "Beach House",
-          "Gremmie Lagoon",
-          "Malibu Runs",
-          "Old Man Falls",
-          "Stormwatch Tower",
-          "Sunset River",
-          "Tidal Wave Bay",
-          "Wedge"
+          "Sky Cabin"
         ],
         "source_url": "https://queue-times.com/parks/61/queue_times.json",
         "attribution": "Powered by Queue-Times.com — https://queue-times.com/",
-        "park_is_open": false,
-        "data_age_minutes": 585
+        "park_is_open": true,
+        "data_age_minutes": 0
       },
       "thrill_data": {
         "thrill_data_name": "Knott's Berry Farm",
@@ -5042,13 +5329,13 @@
     }
   ],
   "reddit_summary": {
-    "total_posts": 222,
+    "total_posts": 247,
     "kpi_counts": {
-      "long_waits": 24,
-      "pricing_pass": 28,
-      "crowding": 19,
-      "food_service": 19,
-      "ride_closure": 20,
+      "long_waits": 26,
+      "pricing_pass": 34,
+      "crowding": 24,
+      "food_service": 22,
+      "ride_closure": 21,
       "cleanliness": 6,
       "staffing_ops": 5,
       "positive_experience": 2
