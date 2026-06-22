@@ -38,4 +38,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-refresh dashboard [skip ci]"
-          file_pattern: "index.html dashboard_share.html dashboard.html dashboard_data.json dashboard_summary.md data/"
+          file_pattern: "index.html data/"
