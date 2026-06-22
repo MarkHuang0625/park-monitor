@@ -1017,13 +1017,17 @@ document.getElementById('exportJson').onclick = () => {{
 
 document.getElementById('showSources').onclick = () => {{
   const p = document.getElementById('sourcesPanel');
-  p.style.display = p.style.display === 'none' ? 'block' : 'none';
-  document.getElementById('sourcesList').innerHTML = `
-    <li><strong>Live waits:</strong> queue-times.com (updated every ~5 min)</li>
-    <li><strong>Weekly / historical waits:</strong> <a href="https://www.thrill-data.com/waits/" target="_blank">thrill-data.com/waits</a> + custom graph tool</li>
-    <li><strong>Reddit:</strong> PullPush archive + public subreddit JSON → <code>${{DATA.data_files.reddit_posts}}</code></li>
-    <li><strong>Local history:</strong> <code>${{DATA.data_files.wait_history}}</code> (${{DATA.history_days}} days)</li>
-    <li><strong>Claude:</strong> read <code>dashboard_data.json</code> or run <code>python park_monitor.py --refresh</code></li>`;
+  const opening = p.style.display === 'none';
+  p.style.display = opening ? 'block' : 'none';
+  if (opening) {{
+    document.getElementById('sourcesList').innerHTML = `
+      <li><strong>Live waits:</strong> <a href="https://queue-times.com/" target="_blank">Queue-Times.com</a> (updated every ~5 min)</li>
+      <li><strong>Weekly trends:</strong> <a href="https://www.thrill-data.com/waits/" target="_blank">Thrill Data</a> — current week avg + WoW% (free tier). Historical/YoY requires Thrill Data Plus ($75/yr).</li>
+      <li><strong>Reddit:</strong> PullPush.io archive + public subreddit JSON</li>
+      <li><strong>Local history:</strong> ${{DATA.history_days}} daily snapshots accumulated since deployment (~365 needed for full YoY)</li>
+      <li><strong>Export:</strong> click “Export JSON” above to download the full structured dataset</li>`;
+    p.scrollIntoView({{behavior: 'smooth', block: 'start'}});
+  }}
 }};
 
 initFilters();
