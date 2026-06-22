@@ -2,8 +2,8 @@ name: Refresh Dashboard
 
 on:
   schedule:
-    - cron: '0 */1 * * *'   # 每小时运行一次
-  workflow_dispatch:          # 支持手动触发
+    - cron: '0 */1 * * *'   # Runs every hour
+  workflow_dispatch:          # Allows manual refresh
 
 permissions:
   contents: write
@@ -26,7 +26,7 @@ jobs:
 
       - name: Fetch latest park data
         run: python park_monitor.py --refresh --demo
-        # --demo 保证即使 Reddit 请求失败也能生成页面
+        # --demo Ensure that the page can be generated even if the Reddit request fails
 
       - name: Build standalone dashboard
         run: python make_share.py
